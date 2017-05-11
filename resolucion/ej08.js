@@ -1,32 +1,32 @@
 // 2
 var autor = {
-  nombre: 'Soda Stereo',
-  integrantes: ['Gustavo Cerati', 'Zeta Bosio', 'Charly Alberti']
+    nombre: 'Soda Stereo',
+    integrantes: ['Gustavo Cerati', 'Zeta Bosio', 'Charly Alberti']
 };
 
 // 3
 var cancion1 = {
-  nombre: 'En el septimo día',
-  duracion: 345
+    nombre: 'En el septimo día',
+    duracion: 345
 };
 
 // 4
 var cancion2 = {
-  nombre: 'Canción Animal',
-  duracion: 260
+    nombre: 'Canción Animal',
+    duracion: 260
 };
 
 // 5
 var cancion3 = {
-  nombre: 'Té para 3',
-  duracion: 180
+    nombre: 'Té para 3',
+    duracion: 180
 };
 
 // 6
 var disco = {
-  nombre: 'Canción Animal',
-  autor: autor,
-  canciones: [cancion1, cancion2, cancion3]
+    nombre: 'Canción Animal',
+    autor: autor,
+    canciones: [cancion1, cancion2, cancion3]
 };
 
 // 7

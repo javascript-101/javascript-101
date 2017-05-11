@@ -1,9 +1,9 @@
 // 2
 var canciones = [
-  'En la ciudad de la furia',
-  'Trátame suavemente',
-  'Nada Personal',
-  'Signos'
+    'En la ciudad de la furia',
+    'Trátame suavemente',
+    'Nada Personal',
+    'Signos'
 ];
 
 // 3

@@ -1,6 +1,6 @@
 // 2
 function sumar(numero1, numero2) {
-  return numero1 + numero2;
+    return numero1 + numero2;
 }
 
 // 3
@@ -11,8 +11,8 @@ console.log(resultado);
 
 // 5
 function saludar(usuario) {
-  // 6
-  return 'Bienvenido ' + usuario + ' a spotify';
+    // 6
+    return 'Bienvenido ' + usuario + ' a spotify';
 }
 
 // 7
@@ -47,7 +47,7 @@ var passwordDeUsuario = 1234;
 // 16
 
 if ( autenticar(nombreDeUsuario, passwordDeUsuario) ) {
-  console.log('Bienvenido javascript101 a spotify');
+    console.log('Bienvenido javascript101 a spotify');
 } else {
-  console.log('Usuario incorrecto');
+    console.log('Usuario incorrecto');
 }
