@@ -1,7 +1,7 @@
 // 2
 var canciones = [
-  { nombre: 'En la ciudad de la furia', duracion: 345 },
-  { nombre: 'Nada Personal', duracion: 300 }
+    { nombre: 'En la ciudad de la furia', duracion: 345 },
+    { nombre: 'Nada Personal', duracion: 300 }
 ];
 
 // 3

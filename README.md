@@ -2,7 +2,7 @@
 
 Este workshop es una introducción a la programación usando JavaScript.
 
-### ¿Qué vamos a ver?
+## Temas
 
 1. ¿Qué es Programar?
 2. ¿Qué es JavaScript?

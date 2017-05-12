@@ -20,6 +20,6 @@ console.log('Autor: ', autor);
 
 console.log('Duración en segundos: ', duracion);
 
-console.log('Reproducir?: ', reproducir);
+console.log('Reproducir: ', reproducir);
 
 console.log('Canción favorita: ', favorita);

@@ -1,11 +1,11 @@
 // 2
 function obtenerNombreDeCancion() {
-  return 'En la ciudad de la furia';
+    return 'En la ciudad de la furia';
 }
 
 // 3
 function obtenerDuracionDeCancion() {
-  return 345;
+    return 345;
 }
 
 // 4
