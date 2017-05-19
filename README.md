@@ -1,18 +1,22 @@
-# JavaScript  101
+# JavaScript 101
 
 Este workshop es una introducción a la programación usando JavaScript.
 
-## Temas
+## Requisitos
 
-1. ¿Qué es Programar?
-2. ¿Qué es JavaScript?
-3. Historia de JS
-4. Escribir y ejecutar nuestro primer programa (Browser, Consola)
-5. Variables
-6. Tipos de datos
-7. Input & output
-8. Operadores
-9. Estructuras de control
-10. Valores verdaderos y falsos
-11. Estructuras de repetición
-12. Funciones
+* Editor de texto (notedpad++, atom, visual studio code, sublime text)
+* Node.js
+
+## Introducción
+
+1. ¿Qué es un lenguaje de programación?
+1. ¿Qué es JavaScript?
+1. Escribir y ejecutar nuestro primer programa en el navegador y en la consola
+
+## Ejercicios
+
+1. console.log
+1. números, cadenas de texto y booleanos
+1. variables
+1. operadores
+1. condiciones
