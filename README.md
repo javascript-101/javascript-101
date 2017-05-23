@@ -21,10 +21,4 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. variables
 1. operadores
 1. condiciones
-
-## Temas que me faltan
-
-1. arrays
-1. objetos
-1. iteradores
-1. funciones
+1. parcialito 🙊
