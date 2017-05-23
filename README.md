@@ -4,7 +4,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Requisitos
 
-* Editor de texto (notepad++, atom, visual studio code, sublime text)
+* Editor de texto (Notepad++, Atom, Visual Studio Code, Sublime Text)
 * Node.js
 
 ## Introducción
