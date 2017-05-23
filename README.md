@@ -22,3 +22,4 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. operadores
 1. condiciones
 1. parcialito 🙊
+1. arrays
