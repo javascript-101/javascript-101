@@ -20,11 +20,11 @@ Este workshop es una introducción a la programación usando JavaScript.
 ## Ejercicios
 
 1. [console.log](/ejercicios/01.md)
-1. números, cadenas de texto y booleanos
-1. variables
-1. operadores
-1. condiciones
-1. parcialito 🙊
-1. arrays
-1. parámetros de ejecución en una aplicación Node.js
-1. parcialito 2 🙊
+1. [números, cadenas de texto y booleanos](/ejercicios/02.md)
+1. [variables](/ejercicios/03.md)
+1. [operadores](/ejercicios/04.md)
+1. [condiciones](/ejercicios/05.md)
+1. [parcialito 🙊](/ejercicios/06.md)
+1. [arrays](/ejercicios/07.md)
+1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/08.md)
+1. [parcialito 2 🙊](/ejercicios/09.md)
