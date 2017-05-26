@@ -28,3 +28,12 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [arrays](/ejercicios/07.md)
 1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/08.md)
 1. [parcialito 2 🙊](/ejercicios/09.md)
+
+## Links extras para seguir aprendiendo (ordenados en orden de recomendación)
+
+1. [JavaScript para gatos](https://jsparagatos.com/)
+1. [Free Code Camp BA - Introducción a JavaScript](https://github.com/FreeCodeCampBA/intro-js)
+1. [NodeSchool.io - JavaScripting](https://github.com/workshopper/javascripting)
+1. [Introducción a JavaScript en la web](http://librosweb.es/libro/javascript/)
+1. [Platzi - Curso de Programación básica](https://platzi.com/cursos/programacion-basica/)
+1. [Eloquent JavaScript en español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
