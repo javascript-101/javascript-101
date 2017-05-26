@@ -5,7 +5,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 ## Requisitos
 
 * [Node.js](https://nodejs.org/en/)
-* Uno de estos editores de texto (ordenados por orden de recomendación)
+* Uno de estos editores de texto
   * [Visual Studio Code](https://code.visualstudio.com/)
   * [Atom](https://atom.io/)
   * [Sublime Text](https://www.sublimetext.com/)
@@ -29,7 +29,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/08.md)
 1. [parcialito 2 🙊](/ejercicios/09.md)
 
-## Links extras para seguir aprendiendo (ordenados en orden de recomendación)
+## Links extras para seguir aprendiendo
 
 1. [JavaScript para gatos](https://jsparagatos.com/)
 1. [Free Code Camp BA - Introducción a JavaScript](https://github.com/FreeCodeCampBA/intro-js)
