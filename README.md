@@ -4,8 +4,12 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Requisitos
 
-* Editor de texto (Notepad++, Atom, Visual Studio Code, Sublime Text)
-* Node.js
+* [Node.js](https://nodejs.org/en/)
+* Uno de estos editores de texto (ordenados por orden de recomendación)
+  * [Visual Studio Code](https://code.visualstudio.com/)
+  * [Atom](https://atom.io/)
+  * [Sublime Text](https://www.sublimetext.com/)
+  * [Notepad++](https://notepad-plus-plus.org/)
 
 ## Introducción
 
@@ -15,7 +19,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Ejercicios
 
-1. console.log
+1. [console.log](/ejercicios/01.md)
 1. números, cadenas de texto y booleanos
 1. variables
 1. operadores
