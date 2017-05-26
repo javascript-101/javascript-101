@@ -23,7 +23,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [números, cadenas de texto y booleanos](/ejercicios/02.md)
 1. [variables](/ejercicios/03.md)
 1. [operadores](/ejercicios/04.md)
-1. [condiciones](/ejercicios/05.md)
+1. [condicionales](/ejercicios/05.md)
 1. [parcialito 🙊](/ejercicios/06.md)
 1. [arrays](/ejercicios/07.md)
 1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/08.md)
