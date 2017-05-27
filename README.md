@@ -28,6 +28,8 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [arrays](/ejercicios/07.md)
 1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/08.md)
 1. [parcialito 2 🙊](/ejercicios/09.md)
+1. [objetos](/ejercicios/10.md)
+1. [Trabajo final 🙊🙊🙊](https://github.com/javascript-101/javascript-101)
 
 ## Links extras para seguir aprendiendo
 
