@@ -11,7 +11,7 @@ Este workshop es una introducción a la programación usando JavaScript.
   * [Sublime Text](https://www.sublimetext.com/)
   * [Notepad++](https://notepad-plus-plus.org/)
 
-# Introducción
+## Introducción
 
 1. ¿Qué es un lenguaje de programación?
     * Lenguaje que por medio de semántica y estructura permite darle instrucciones a una computadora.
@@ -24,7 +24,7 @@ Este workshop es una introducción a la programación usando JavaScript.
     * El propósito inicial fue hacer páginas web más dinámicas.
     * Fue evolucionando y hoy en día hasta lo podemos usar en servidores y otros casos de uso para los que nunca fue creado.
 1. ¿Por qué JavaScript?
-    * Hoy en día, JavaScript tiene muchísimos casos de uso diferentes, desde manipular robots u otro tipos de hardware, hacer gráficos increíbles, escribir aplicaciones para teléfonos, webs y hasta satélites.
+    * Hoy en día, JavaScript tiene muchísimos casos de uso diferentes, desde manipular robots u otro tipos de hardware, hacer gráficos complejos, proyectos en realidad virtual y escribir aplicaciones para teléfonos y navegadores.
     * Node.js se presenta en 2009.
 1. Escribir y ejecutar nuestro primer programa en el navegador y en la consola.
 
