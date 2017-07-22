@@ -38,9 +38,9 @@ if (notaDeJuan > notaDePedro) {
 var compra = 500;
 
 if (compra > 100) {
-    var compraConDescuento = compra * 15 / 100;
+    var descuento = compra * 15 / 100;
 
-    console.log(compraConDescuento);
+    console.log(compra - descuento);
 } else {
     console.log(compra);
 }
