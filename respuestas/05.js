@@ -27,8 +27,10 @@ if (posicionEnLaCarrera == 1) {
     console.log('Te falto poquito para ganar');
 } else if (posicionEnLaCarrera == 3) {
     console.log('Sos un orgullo para tu familia');
-} else {
+} else if (posicionEnLaCarrera > 3) {
     console.log('Volvé a tu casa');
+} else {
+    console.log("'El valor ingresado no es correcto")
 }
 
 /*
@@ -44,8 +46,10 @@ if (posicionEnLaCarrera == 1) {
     mensaje = 'Te falto poquito para ganar';
 } else if (posicionEnLaCarrera == 3) {
     mensaje = 'Sos un orgullo para tu familia';
+} else if (posicionEnLaCarrera > 3) {
+    console.log('Volvé a tu casa');
 } else {
-    mensaje = 'Volvé a tu casa';
+    console.log("'El valor ingresado no es correcto")
 }
 
 console.log(mensaje);
