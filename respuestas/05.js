@@ -30,7 +30,7 @@ if (posicionEnLaCarrera == 1) {
 } else if (posicionEnLaCarrera > 3) {
     console.log('Volvé a tu casa');
 } else {
-    console.log("'El valor ingresado no es correcto")
+    console.log('No tires fruta')
 }
 
 /*
@@ -47,9 +47,9 @@ if (posicionEnLaCarrera == 1) {
 } else if (posicionEnLaCarrera == 3) {
     mensaje = 'Sos un orgullo para tu familia';
 } else if (posicionEnLaCarrera > 3) {
-    console.log('Volvé a tu casa');
+    mensaje = 'Volvé a tu casa';
 } else {
-    console.log("'El valor ingresado no es correcto")
+    mensaje = 'No tires fruta';
 }
 
 console.log(mensaje);
