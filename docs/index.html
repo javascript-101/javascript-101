@@ -7,12 +7,10 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-
-		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
@@ -24,8 +22,285 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown>
+				<section>
+					<h1>{ 101 }</h1>
 				</section>
+
+				<section>
+					<h1>🤔</h1>
+				</section>
+
+				<section>
+          <h1>💻 Programar</h1>
+				</section>
+
+				<section>
+          <h2>🗣 Lenguaje de Programación</h2>
+				</section>
+
+				<section>
+          <h1>🙌 JavaScript</h1>
+				</section>
+
+				<section data-background="./img/papita.gif">
+          <h2 class="white">🍟 Por Qué JavaScript?</h2>
+				</section>
+
+				<section data-background="./img/demo.gif">
+					<h2 class="white">🕐 A codear...</h2>
+				</section>
+
+				<section>
+					<section data-markdown>
+						# `console.log()`
+						- 🖨 Mostrar información
+						- 🌎 Global
+					</section>
+
+					<section data-markdown>
+						## Ejemplo
+						```javascript
+							$ console.log(1989)
+							$ console.log(13, 10, 1989)
+						```
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						# Tipos de Dato
+
+						- 🔢 Numeros - `Number`
+						- 🔗 Cadenas de Caracteres - `String`
+						- 0️⃣1️⃣ Booleanos - `Boolean`
+					</section>
+
+					<section data-markdown>
+						## `Number`
+						- Enteros - Decimales
+						- Positivos - Negativos
+						- Operaciones Aritméticas
+
+						```javascript
+						1
+						-1
+						9.5
+						0
+						99999
+						```
+					</section>
+
+					<section data-markdown>
+						### `String`
+						- Conjuntos de caracteres
+						- Comillas (simples o dobles)
+
+						```javascript
+						'Esto es un String'
+						"Y esto también"
+						```
+					</section>
+
+					<section data-markdown>
+						## `Boolean`
+						- Lógica binaria (`0` o `1`)
+						- `true` o `false`
+
+						```javascript
+						true
+						false
+						```
+					</section>
+
+					<section data-markdown>
+						## Ejemplos
+						```javascript
+						console.log(1, 2, 3)
+						console.log('Hola JavaScript 👋')
+						console.log(true, false)
+						```
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						# 📦 Variables
+						- Referencias a valores 🤔
+						- Reutilización
+						- `var`
+					</section>
+					<section data-markdown>
+						## Ejemplo
+						```javascript
+							var miVariable = 'Esto es una variable'
+							console.log(miVariable)
+						```
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						# 😱 `undefined`
+						Tipo de dato
+
+						```javascript
+						var miVariableSinValor
+						console.log(miVariableSinValor)
+						```
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						# 📱 Operadores
+						- Asignación
+						- Aritméticos
+						- Comparación
+					</section>
+
+					<section data-markdown>
+						## Asignación
+						```javascript
+						var miVariable = true var miOtraVariable = 25
+						```
+					</section>
+
+					<section data-markdown>
+						## Aritméticos
+						```javascript
+						var suma = 1 + 9 // 10
+						var resta = 3 - 2 // 1
+						var division = 100 / 10 // 10
+						var multiplicación = 10 * 10 // 100
+						var x = 1 var y = 2 var z = x + y // 3
+						```
+					</section>
+
+					<section data-markdown>
+						## Aritméticos
+						```javascript
+							var x = 1
+							var y = 2
+							var z = x + y // 3
+						```
+					</section>
+
+					<section data-markdown>
+						## Comparación
+
+						```javascript
+						var igual = 1 == 1 // true
+						var distinto = 2 != 1 // true
+						var mayor = 3 > 2 // true
+						var menor = 3 < 2 // true
+						```
+					</section>
+
+
+				</section>
+
+				<section>
+					<section data-markdown>
+						# 🔀 Condicionales
+						- Toma de decisiones
+						- Evaluar condiciones
+						- `if` - `else`
+					</section>
+
+					<section data-markdown>
+						## `if`
+						```javascript
+						var haceFrio = true
+
+						if (haceFrio) {
+							console.log('❄️')
+						}
+						```
+					</section>
+
+					<section data-markdown>
+						## `else`
+						```javascript
+						var haceFrio = false
+
+						if (haceFrio) {
+							console.log('❄️')
+						} else {
+							console.log('☀️')
+						}
+						```
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						# 🗂 `Array`
+						- Colecciones de datos
+						- Indices
+					</section>
+
+					<section data-markdown>
+						## Ejemplo
+						```javascript
+						var numeros = [1, 2, 3, 4, 5]
+						var palabras = ['Hola', 'mundo', 'cruel']
+						var deTodito = [true, 'JavaScript', 100, false]
+
+						console.log(numeros[0]) // 1
+						console.log(palabras[1]) // 'mundo'
+						console.log(deTodito[2]) // 100
+						```
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						# 🎁 `Object`
+						- Colecciones de `clave: valor`
+						- Modelar la vida real
+					</section>
+
+					<section data-markdown>
+						## Ejemplo
+						```javascript
+						var persona = {
+							nombre: 'Jose Luis Felix Chilavert',
+							edad: 52,
+							esCrack: true
+						}
+
+						console.log(persona.nombre) // Jose Luis Felix Chilavert
+						```
+					</section>
+				</section>
+
+				<section>
+					<section data-background="./img/money.gif">
+						<h1 class="white">Más?</h1>
+					</section>
+
+					<section data-markdown>
+						# 📚🇪🇸 Recursos
+
+						1. [JavaScript Para Gatos](https://jsparagatos.com/)
+						1. [Free Code Camp BA - Introducción a JavaScript](https://github.com/nhsz/intro-js)
+						1. [NodeSchool.io - JavaScripting](https://github.com/workshopper/javascripting)
+						1. [Introducción a JavaScript en
+						la web](http://librosweb.es/libro/javascript/)
+						1. [Platzi - Curso de Programación básica](https://platzi.com/cursos/programacion-basica/)
+						1. [Eloquent JavaScript](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
+					</section>
+				</section>
+
+				<section data-background="./img/wait.gif">
+					<h1 class="white">Preguntas?</h1>
+				</section>
+
+				<section data-markdown>
+					# ~~{ fin }~~
+					# { comienzo }
+				</section>
+
 			</div>
 		</div>
 
@@ -34,11 +309,13 @@
 
 		<script>
 			Reveal.initialize({
+				history: true,
+
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
