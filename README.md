@@ -30,17 +30,28 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Ejercicios
 
-1. [console.log](/ejercicios/01.md)
-1. [números, cadenas de texto y booleanos](/ejercicios/02.md)
-1. [variables](/ejercicios/03.md)
-1. [operadores](/ejercicios/04.md)
-1. [condicionales](/ejercicios/05.md)
-1. [parcialito 🙊](/ejercicios/06.md)
-1. [arrays](/ejercicios/07.md)
-1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/08.md)
-1. [parcialito 2 🙊](/ejercicios/09.md)
-1. [objetos](/ejercicios/10.md)
+### Ejercicios Conceptuales
+
+1. [console.log](/ejercicios/conceptuales/01.md)
+1. [números, cadenas de texto y booleanos](/ejercicios/conceptuales/02.md)
+1. [variables](/ejercicios/conceptuales/03.md)
+1. [operadores](/ejercicios/conceptuales/04.md)
+1. [condicionales](/ejercicios/conceptuales/05.md)
+1. [parcialito 🙊](/ejercicios/conceptuales/06.md)
+1. [arrays](/ejercicios/conceptuales/07.md)
+1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/conceptuales/08.md)
+1. [parcialito 2 🙊](/ejercicios/conceptuales/09.md)
+1. [objetos](/ejercicios/conceptuales/10.md)
 1. [Trabajo final 🙊🙊🙊](/trabajo-final/README.md)
+
+### Ejercicios Botiquín Virtual
+1. [Variables](/ejercicios/botiquin/1_variables.md)
+1. [Operadores y Expresiones](/ejercicios/botiquin/2_operadores_expresiones.md)
+1. [Arrays](/ejercicios/botiquin/3_arrays.md)
+1. [Estructuras de control](/ejercicios/botiquin/4_estructuras_control.md)
+1. [Objetos](/ejercicios/botiquin/5_objetos.md)
+1. [Funciones](/ejercicios/botiquin/6_funciones.md)
+7. [Aplicación Web](/ejercicios/botiquin/7_aplicacion_web.md)
 
 ## Links extras para seguir aprendiendo
 
