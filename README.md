@@ -20,7 +20,7 @@ Este workshop es una introducción a la programación usando JavaScript.
     * Es un lenguaje de programación interpretado y multiparadigma.
     * Interpretado quiere decir que en tiempo de ejecución, las instrucciones se transforman a código máquina para ser ejecutado, a diferencia de los lenguajes compilados que requieren un paso extra que es compilar el programa y generar un archivo ejecutable.
     * Hay muchas maneras de programar (Funcional, Orientado a objetos).
-    * Creador por Brendan Eich, nació en 1995.
+    * Creado por Brendan Eich, nació en 1995.
     * El propósito inicial fue hacer páginas web más dinámicas.
     * Fue evolucionando y hoy en día hasta lo podemos usar en servidores y otros casos de uso para los que nunca fue creado.
 1. ¿Por qué JavaScript?
@@ -50,3 +50,5 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [Introducción a JavaScript en la web](http://librosweb.es/libro/javascript/)
 1. [Platzi - Curso de Programación básica](https://platzi.com/cursos/programacion-basica/)
 1. [Eloquent JavaScript en español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
+1. [Aprende ECMAScript 6](https://carlosazaustre.es/ecmascript-6-el-nuevo-estandar-de-javascript/)
+1. [Mozilla - Clases en ECMAScript 6](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes)
