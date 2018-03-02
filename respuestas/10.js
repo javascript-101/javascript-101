@@ -1,43 +1,37 @@
 /*
-    Declará y asigná un objeto llamado `miRecetaMatadora` que contenga 3 propiedades: `titulo` (string), `porciones` (número) e `ingredientes` (array de string). Mostrar el objeto creado en la terminal
+    Vamos a crear una calculadora (😮) que reciba como parámetro:
+
+        * La operación que queremos que realice (`sumar` o `restar`).
+        * 2 números para que pueda realizar la cuenta.
+
+        ```bash
+        # Ejemplos de como vamos a ejecutar nuestra calculadora por la terminal
+
+        # Sumar 2 números
+        node calculadora.js sumar 10 50
+
+        # Restar 2 números
+        node calculadora.js restar 20 5
+        ```
+
+        La calculadora va a mostrar por la terminal:
+
+        ```bash
+        'La operación que se solicitó fue: ...'
+        'El resultado es: ...'
+        ```
 */
 
-var miRecetaMatadora = {
-    titulo: 'Polenta con queso',
-    porciones: 4,
-    ingredientes: [
-        'Polenta',
-        'Queso fresco',
-        'Queso rallado'
-    ]
-};
+var operacion = process.argv[2];
+var numero1ComoString = process.argv[3];
+var numero2ComoString = process.argv[4];
+var numero1 = Number(numero1ComoString);
+var numero2 = Number(numero2ComoString);
 
-console.log(miRecetaMatadora);
+console.log('La operación que se solicitó fue:', operacion);
 
-/*
-    Escribí un programa que:
-
-        * Declare 3 objetos llamados `persona1`, `persona2` y `persona3` con las siguientes propiedades: `nombre` (string) y `edad` (numero).
-        * Declare un array llamado `usuarios` y use los 3 objetos anteriormente creados como elementos.
-        * Muestre por la terminal la cantidad de usuarios del array.
-        * Muestre por la terminal la edad del segundo elemento del array.
-        * Muestre por la terminal el nombre del primer elemento del array.
-*/
-
-var persona1 = {
-    nombre: 'Juan',
-    edad: 10
-};
-var persona2 = {
-    nombre: 'Pedro',
-    edad: 20
-};
-var persona3 = {
-    nombre: 'Martin',
-    edad: 30
-};
-var usuarios = [persona1, persona2, persona3];
-
-console.log(usuarios.length);
-console.log(usuarios[1].edad);
-console.log(usuarios[0].nombre);
+if (operacion === 'sumar') {
+    console.log('El resultado es', numero1 + numero2);
+} else {
+    console.log('El resultado es', numero1 - numero2);
+}

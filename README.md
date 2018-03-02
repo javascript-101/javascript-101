@@ -33,17 +33,17 @@ Este workshop es una introducción a la programación usando JavaScript.
 ## Ejercicios
 
 1. [console.log](/ejercicios/01.md)
-1. [errores comunes](/ejercicios/02.md)
-1. [números, cadenas de texto y booleanos](/ejercicios/03.md)
-1. [variables](/ejercicios/04.md)
-1. [operadores](/ejercicios/05.md)
-1. [condicionales](/ejercicios/06.md)
-1. [parcialito 🙊](/ejercicios/07.md)
-1. [arrays](/ejercicios/08.md)
-1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/09.md)
-1. [parcialito 2 🙊](/ejercicios/10.md)
-1. [objetos](/ejercicios/11.md)
-1. [Trabajo final 🙊🙊🙊](/trabajo-final/README.md)
+1. [Errores Comunes](/ejercicios/02.md)
+1. [Números, Cadenas de Texto y Booleanos](/ejercicios/03.md)
+1. [Variables](/ejercicios/04.md)
+1. [Operadores](/ejercicios/05.md)
+1. [Condicionales](/ejercicios/06.md)
+1. [Parcialito 🙊](/ejercicios/07.md)
+1. [Arrays](/ejercicios/08.md)
+1. [Parámetros de Ejecución en una Aplicación Node.js](/ejercicios/09.md)
+1. [Parcialito 2 🙊](/ejercicios/10.md)
+1. [Objetos](/ejercicios/11.md)
+1. [Trabajo Final 🙊🙊🙊](/trabajo-final/README.md)
 
 ## Links extras para seguir aprendiendo
 
