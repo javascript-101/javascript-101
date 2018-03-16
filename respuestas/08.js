@@ -1,51 +1,173 @@
 /*
-    Un año de vida para las personas, representa 7 años en la vida de un perro. Escribí un programa que reciba como parámetro tu edad (no te olvides de usar la función `Number` para convertirla de string a número) y mostrá por la terminal cuantos años tendrías si fueras un perro (tu edad multiplicada por 7).
+    Dado el siguiente array de meses del año:
+
+        ```javascript
+        var meses = [
+            'Enero', // índice `0`
+            'Febrero',
+            'Marzo',
+            'Abril',
+            'Mayo',
+            'Junio',
+            'Julio',
+            'Agosto',
+            'Septiembre',
+            'Octubre',
+            'Noviembre',
+            'Diciembre'  // índice 11, equivalente a `meses.length - 1`
+        ];
+        ```
+
+        Escribir un programa que:
+
+        1. Declare y asigne una variable que tenga como valor el **_número_** del mes de tu cumpleaños.
+        1. Muestre por terminal el **_nombre_** del mes de tu cumpleaños.
 */
 
-var miEdadComoString = process.argv[2];
-var miEdad = Number(miEdadComoString);
-var miEdadEnAnosPerrunos = miEdad * 7;
+ var meses = [
+    'Enero', // índice `0`
+    'Febrero',
+    'Marzo',
+    'Abril',
+    'Mayo',
+    'Junio',
+    'Julio',
+    'Agosto',
+    'Septiembre',
+    'Octubre',
+    'Noviembre',
+    'Diciembre'  // índice 11, equivalente a `meses.length - 1`
+];
 
-console.log(miEdadEnAnosPerrunos);
+var numeroDelMesDeMiCumpleanos = 5;
+var nombreDelMesDeMiCumpleanos = meses[5 - 1];
+
+console.log(nombreDelMesDeMiCumpleanos);
 
 /*
-    Escribí un programa que reciba el nombre de una persona (string) y la nota de su trabajo práctico (número). Mostrar por la terminal el mensaje adecuado dependiendo de las siguientes condiciones:
+    Dado los siguientes arrays:
 
-        * Si su nota es mayor a 7, mostrar:
+        ```javascript
+        var meses = [
+            'Enero',
+            'Febrero',
+            'Marzo',
+            'Abril',
+            'Mayo',
+            'Junio',
+            'Julio',
+            'Agosto',
+            'Septiembre',
+            'Octubre',
+            'Noviembre',
+            'Diciembre'
+        ];
 
-        ```bash
-        # Completar los 3 puntos con los datos correspondientes
-        'El/La alumno/a llamado/a ... se sacó un ...'
-        'Felicitaciones por aprobar'
+        var planetas = [
+            'Mercurio',
+            'Venus',
+            'Tierra',
+            'Marte',
+            'Saturno',
+            'Jupiter',
+            'Urano',
+            'Neptuno',
+            'Plutón'
+        ];
         ```
 
-        * Si su nota es mayor a 4 pero menor a 7, mostrar:
-
-        ```bash
-        # Completar los 3 puntos con los datos correspondientes
-        'El/La alumno/a llamado/a ... se sacó un ...'
-        'La próxima entrega espero un mejor trabajo'
-        ```
-
-        * Si su nota es menor a 4, mostrar:
-
-        ```bash
-        # Completar los 3 puntos con los datos correspondientes
-        'El/La alumno/a llamado/a ... se sacó un ...'
-        'Nos vemos en Marzo'
-        ```
+        1. Mostrar por la terminal la cantidad de elementos que tiene cada uno.
+        1. Mostrar por la terminal el último elemento de cada array (usando la propiedad `length` que tienen los arrays).
+        1. Mostrar el cuarto planeta por pantalla (`Marte`).
 */
 
-var persona = process.argv[2];
-var notaComoString = process.argv[3];
-var nota = Number(notaComoString);
+var meses = [
+    'Enero',
+    'Febrero',
+    'Marzo',
+    'Abril',
+    'Mayo',
+    'Junio',
+    'Julio',
+    'Agosto',
+    'Septiembre',
+    'Octubre',
+    'Noviembre',
+    'Diciembre'
+]
+var planetas = [
+    'Mercurio',
+    'Venus',
+    'Tierra',
+    'Marte',
+    'Saturno',
+    'Jupiter',
+    'Urano',
+    'Neptuno',
+    'Plutón'
+];
 
-console.log('El/La alumno/a llamado/a', persona, ' se sacó un', nota);
+console.log(meses.length);
+console.log(planetas.length);
 
-if (nota > 7) {
-    console.log('Felicitaciones por aprobar');
-} else if (nota > 4) {
-    console.log('La próxima entrega espero un mejor trabajo.');
-} else {
-    console.log('Nos vemos en Marzo');
-}
+console.log(meses[meses.length - 1]);
+console.log(planetas[planetas.length - 1]);
+
+console.log(planetas[3]);
+
+/*
+    1. Dado el siguiente array de nombres:
+
+        ```javascript
+        var nombres = ['Sofía', 'Abril'];
+        var apellidos = ['Rodriguez', 'López'];
+        ```
+
+        1. Mostrar por la terminal el primer elemento de cada array.
+        1. Crear un nuevo array llamado `nombreCompleto` que contenga el segundo elemento del array `nombres` y el primer elemento del array `apellidos`. Mostrar el nuevo array por la terminal.
+*/
+
+var nombres = ['Sofía', 'Abril'];
+var apellidos = ['Rodriguez', 'López'];
+
+console.log(nombres[0]);
+console.log(apellidos[0]);
+
+var nombreCompleto = [nombres[1], apellidos[0]];
+console.log(nombreCompleto);
+
+/*
+    1. Dado el siguiente array de participantes de una carrera y considerando que están ordenados en base al orden de llegada (el primer elemento es el primero en haber llegado):
+
+        ```javascript
+        var corredores = [
+            'Margarita', // ganó la carrera
+            'Juan',
+            'Raquel',
+            'Ezequiel',
+            'Gonzalo',
+            'Martina',
+            'Julian' // último 🙁
+        ];
+        ```
+
+        1. Mostrar por la terminal los 3 primeros en llegar a la meta usando índices numéricos.
+        1. Crear un nuevo array llamado `losUltimos` que contenga los 2 últimos corredores en llegar (usando la propiedad `length` que tienen los arrays). Mostrar este nuevo array por la terminal.
+*/
+
+var corredores = [
+    'Margarita', // ganó la carrera
+    'Juan',
+    'Raquel',
+    'Ezequiel',
+    'Gonzalo',
+    'Martina',
+    'Julian' // último 🙁
+];
+
+console.log(corredores[0]);
+console.log(corredores[1]);
+console.log(corredores[2]);
+
+var losUltimos = [corredores[corredores.length - 1], corredores[corredores.length - 2]];
+console.log(losUltimos);

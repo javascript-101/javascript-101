@@ -1,37 +1,51 @@
 /*
-    Vamos a crear una calculadora (😮) que reciba como parámetro:
+    Un año de vida para las personas, representa 7 años en la vida de un perro. Escribí un programa que reciba como parámetro tu edad (no te olvides de usar la función `Number` para convertirla de string a número) y mostrá por la terminal cuantos años tendrías si fueras un perro (tu edad multiplicada por 7).
+*/
 
-        * La operación que queremos que realice (`sumar` o `restar`).
-        * 2 números para que pueda realizar la cuenta.
+var miEdadComoString = process.argv[2];
+var miEdad = Number(miEdadComoString);
+var miEdadEnAnosPerrunos = miEdad * 7;
+
+console.log(miEdadEnAnosPerrunos);
+
+/*
+    Escribí un programa que reciba el nombre de una persona (string) y la nota de su trabajo práctico (número). Mostrar por la terminal el mensaje adecuado dependiendo de las siguientes condiciones:
+
+        * Si su nota es mayor a 7, mostrar:
 
         ```bash
-        # Ejemplos de como vamos a ejecutar nuestra calculadora por la terminal
-
-        # Sumar 2 números
-        node calculadora.js sumar 10 50
-
-        # Restar 2 números
-        node calculadora.js restar 20 5
+        # Completar los 3 puntos con los datos correspondientes
+        'El/La alumno/a llamado/a ... se sacó un ...'
+        'Felicitaciones por aprobar'
         ```
 
-        La calculadora va a mostrar por la terminal:
+        * Si su nota es mayor a 4 pero menor a 7, mostrar:
 
         ```bash
-        'La operación que se solicitó fue: ...'
-        'El resultado es: ...'
+        # Completar los 3 puntos con los datos correspondientes
+        'El/La alumno/a llamado/a ... se sacó un ...'
+        'La próxima entrega espero un mejor trabajo'
+        ```
+
+        * Si su nota es menor a 4, mostrar:
+
+        ```bash
+        # Completar los 3 puntos con los datos correspondientes
+        'El/La alumno/a llamado/a ... se sacó un ...'
+        'Nos vemos en Marzo'
         ```
 */
 
-var operacion = process.argv[2];
-var numero1ComoString = process.argv[3];
-var numero2ComoString = process.argv[4];
-var numero1 = Number(numero1ComoString);
-var numero2 = Number(numero2ComoString);
+var persona = process.argv[2];
+var notaComoString = process.argv[3];
+var nota = Number(notaComoString);
 
-console.log('La operación que se solicitó fue:', operacion);
+console.log('El/La alumno/a llamado/a', persona, ' se sacó un', nota);
 
-if (operacion === 'sumar') {
-    console.log('El resultado es', numero1 + numero2);
+if (nota > 7) {
+    console.log('Felicitaciones por aprobar');
+} else if (nota > 4) {
+    console.log('La próxima entrega espero un mejor trabajo.');
 } else {
-    console.log('El resultado es', numero1 - numero2);
+    console.log('Nos vemos en Marzo');
 }
