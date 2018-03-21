@@ -2,6 +2,8 @@
 
 Este workshop es una introducción a la programación usando JavaScript.
 
+[Empezar con el workshop](/ejercicios/01.md)
+
 ## Requisitos
 
 * [Node.js](https://nodejs.org/en/)
@@ -20,7 +22,7 @@ Este workshop es una introducción a la programación usando JavaScript.
     * Es un lenguaje de programación interpretado y multiparadigma.
     * Interpretado quiere decir que en tiempo de ejecución, las instrucciones se transforman a código máquina para ser ejecutado, a diferencia de los lenguajes compilados que requieren un paso extra que es compilar el programa y generar un archivo ejecutable.
     * Hay muchas maneras de programar (Funcional, Orientado a objetos).
-    * Creador por Brendan Eich, nació en 1995.
+    * Creado por Brendan Eich, nació en 1995.
     * El propósito inicial fue hacer páginas web más dinámicas.
     * Fue evolucionando y hoy en día hasta lo podemos usar en servidores y otros casos de uso para los que nunca fue creado.
 1. ¿Por qué JavaScript?
@@ -30,19 +32,18 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Ejercicios
 
-### Ejercicios Conceptuales
-
 1. [console.log](/ejercicios/conceptuales/01.md)
-1. [números, cadenas de texto y booleanos](/ejercicios/conceptuales/02.md)
-1. [variables](/ejercicios/conceptuales/03.md)
-1. [operadores](/ejercicios/conceptuales/04.md)
-1. [condicionales](/ejercicios/conceptuales/05.md)
-1. [parcialito 🙊](/ejercicios/conceptuales/06.md)
-1. [arrays](/ejercicios/conceptuales/07.md)
-1. [parámetros de ejecución en una aplicación Node.js](/ejercicios/conceptuales/08.md)
-1. [parcialito 2 🙊](/ejercicios/conceptuales/09.md)
-1. [objetos](/ejercicios/conceptuales/10.md)
-1. [Trabajo final 🙊🙊🙊](/trabajo-final/README.md)
+1. [Errores Comunes](/ejercicios/conceptuales/02.md)
+1. [Números, Cadenas de Texto y Booleanos](/ejercicios/conceptuales/03.md)
+1. [Variables](/ejercicios/conceptuales/04.md)
+1. [Operadores](/ejercicios/conceptuales/05.md)
+1. [Condicionales](/ejercicios/conceptuales/06.md)
+1. [Parcialito 🙊](/ejercicios/conceptuales/07.md)
+1. [Arrays](/ejercicios/conceptuales/08.md)
+1. [Parámetros de Ejecución en una Aplicación Node.js](/ejercicios/conceptuales/09.md)
+1. [Parcialito 2 🙊](/ejercicios/conceptuales/10.md)
+1. [Objetos](/ejercicios/conceptuales/11.md)
+1. [Trabajo Final 🙊🙊🙊](/trabajo-final/README.md)
 
 ### Ejercicios Botiquín Virtual
 1. [Variables](/ejercicios/botiquin/1_variables.md)
@@ -61,3 +62,5 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [Introducción a JavaScript en la web](http://librosweb.es/libro/javascript/)
 1. [Platzi - Curso de Programación básica](https://platzi.com/cursos/programacion-basica/)
 1. [Eloquent JavaScript en español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
+1. [Aprende ECMAScript 6](https://carlosazaustre.es/ecmascript-6-el-nuevo-estandar-de-javascript/)
+1. [Mozilla - Clases en ECMAScript 6](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes)
