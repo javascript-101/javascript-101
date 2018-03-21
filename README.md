@@ -32,18 +32,27 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Ejercicios
 
-1. [console.log](/ejercicios/01.md)
-1. [Errores Comunes](/ejercicios/02.md)
-1. [Números, Cadenas de Texto y Booleanos](/ejercicios/03.md)
-1. [Variables](/ejercicios/04.md)
-1. [Operadores](/ejercicios/05.md)
-1. [Condicionales](/ejercicios/06.md)
-1. [Parcialito 🙊](/ejercicios/07.md)
-1. [Arrays](/ejercicios/08.md)
-1. [Parámetros de Ejecución en una Aplicación Node.js](/ejercicios/09.md)
-1. [Parcialito 2 🙊](/ejercicios/10.md)
-1. [Objetos](/ejercicios/11.md)
+1. [console.log](/ejercicios/conceptuales/01.md)
+1. [Errores Comunes](/ejercicios/conceptuales/02.md)
+1. [Números, Cadenas de Texto y Booleanos](/ejercicios/conceptuales/03.md)
+1. [Variables](/ejercicios/conceptuales/04.md)
+1. [Operadores](/ejercicios/conceptuales/05.md)
+1. [Condicionales](/ejercicios/conceptuales/06.md)
+1. [Parcialito 🙊](/ejercicios/conceptuales/07.md)
+1. [Arrays](/ejercicios/conceptuales/08.md)
+1. [Parámetros de Ejecución en una Aplicación Node.js](/ejercicios/conceptuales/09.md)
+1. [Parcialito 2 🙊](/ejercicios/conceptuales/10.md)
+1. [Objetos](/ejercicios/conceptuales/11.md)
 1. [Trabajo Final 🙊🙊🙊](/trabajo-final/README.md)
+
+### Ejercicios Botiquín Virtual
+1. [Variables](/ejercicios/botiquin/1_variables.md)
+1. [Operadores y Expresiones](/ejercicios/botiquin/2_operadores_expresiones.md)
+1. [Arrays](/ejercicios/botiquin/3_arrays.md)
+1. [Estructuras de control](/ejercicios/botiquin/4_estructuras_control.md)
+1. [Objetos](/ejercicios/botiquin/5_objetos.md)
+1. [Funciones](/ejercicios/botiquin/6_funciones.md)
+7. [Aplicación Web](/ejercicios/botiquin/7_aplicacion_web.md)
 
 ## Links extras para seguir aprendiendo
 
