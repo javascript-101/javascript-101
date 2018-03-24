@@ -2,7 +2,7 @@
 
 Este workshop es una introducción a la programación usando JavaScript.
 
-[Empezar con el workshop](/ejercicios/01.md)
+[Empezar con el workshop](/ejercicios/conceptuales/01.md)
 
 ## Requisitos
 
