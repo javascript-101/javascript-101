@@ -16,7 +16,7 @@ function sumar() {
 sumar();
 
 // 6
-var cancion = {
+const cancion = {
     nombre: 'En la ciudad de la furia',
     duracion: 345
 };

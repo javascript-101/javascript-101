@@ -1,11 +1,11 @@
 // 2
-var argumentos = process.argv;
+const argumentos = process.argv;
 
 // 3
-var nombre = argumentos[2];
+const nombre = argumentos[2];
 
 // 4
-var edad = argumentos[3];
+const edad = argumentos[3];
 
 // 5
 console.log('Nombre: ', nombre);

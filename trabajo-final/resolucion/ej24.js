@@ -1,5 +1,5 @@
 // 2
-var canciones = [
+const canciones = [
     'En la ciudad de la furia',
     'Trátame suavemente',
     'Nada Personal',

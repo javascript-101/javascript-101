@@ -1,12 +1,12 @@
 // 2
-var resultado = 2 + 6;
+const resultado = 2 + 6;
 
 // 3
 console.log(resultado);
 
 // 4
-var numero1;
-var numero2;
+let numero1;
+let numero2;
 
 // 5
 numero1 = 4;

@@ -1,5 +1,5 @@
 //2
-var duracion = 345;
+let duracion = 345;
 
 // 3
 duracion++;

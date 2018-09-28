@@ -22,11 +22,11 @@
         ```
 */
 
-var operacion = process.argv[2];
-var numero1ComoString = process.argv[3];
-var numero2ComoString = process.argv[4];
-var numero1 = Number(numero1ComoString);
-var numero2 = Number(numero2ComoString);
+const operacion = process.argv[2];
+const numero1ComoString = process.argv[3];
+const numero2ComoString = process.argv[4];
+const numero1 = Number(numero1ComoString);
+const numero2 = Number(numero2ComoString);
 
 console.log('La operación que se solicitó fue:', operacion);
 

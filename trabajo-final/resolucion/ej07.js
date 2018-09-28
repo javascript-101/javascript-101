@@ -1,5 +1,5 @@
 // 2
-var canciones = [
+const canciones = [
     { nombre: 'En la ciudad de la furia', duracion: 345 },
     { nombre: 'Nada Personal', duracion: 300 }
 ];
@@ -23,8 +23,8 @@ console.log('Duración en segundos:', canciones[1].duracion);
 
 
 // Extra bonus!
-var nombreDeCancion = canciones[1].nombre;
-var duracion = canciones[1].duracion;
+const nombreDeCancion = canciones[1].nombre;
+const duracion = canciones[1].duracion;
 
 console.log('Canción: ', nombreDeCancion);
 console.log('Duración en segundos:', duracion);

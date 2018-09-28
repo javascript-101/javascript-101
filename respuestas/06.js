@@ -2,7 +2,7 @@
     Declarar una variable que se llame `ganeLaCarrera` y asignarle el valor `false`. Mostrar por la terminal un mensaje que diga `'Ganaste'` si `ganeLaCarrera` es verdadero y `'Perdiste'` si su valor es falso.
 */
 
-var ganeLaCarrera = false;
+const ganeLaCarrera = false;
 
 if (ganeLaCarrera == true) {
     console.log('Ganaste');
@@ -19,7 +19,7 @@ if (ganeLaCarrera == true) {
         * `'Volvé a tu casa'` si la `posicionEnLaCarrera` es mayor a 3.
 */
 
-var posicionEnLaCarrera = 6;
+const posicionEnLaCarrera = 6;
 
 if (posicionEnLaCarrera == 1) {
     console.log('FELICITACIONES, SALISTE 1RO');
@@ -37,8 +37,8 @@ if (posicionEnLaCarrera == 1) {
     Repetir el ejercicio anterior pero usando un solo `console.log` en todo el programa.
 */
 
-var posicionEnLaCarrera = 6;
-var mensaje = '';
+const posicionEnLaCarrera = 6;
+const mensaje = '';
 
 if (posicionEnLaCarrera == 1) {
     mensaje = 'FELICITACIONES, SALISTE 1RO';

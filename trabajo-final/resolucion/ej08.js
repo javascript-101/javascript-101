@@ -1,29 +1,29 @@
 // 2
-var autor = {
+const autor = {
     nombre: 'Soda Stereo',
     integrantes: ['Gustavo Cerati', 'Zeta Bosio', 'Charly Alberti']
 };
 
 // 3
-var cancion1 = {
+const cancion1 = {
     nombre: 'En el septimo día',
     duracion: 345
 };
 
 // 4
-var cancion2 = {
+const cancion2 = {
     nombre: 'Canción Animal',
     duracion: 260
 };
 
 // 5
-var cancion3 = {
+const cancion3 = {
     nombre: 'Té para 3',
     duracion: 180
 };
 
 // 6
-var disco = {
+const disco = {
     nombre: 'Canción Animal',
     autor: autor,
     canciones: [cancion1, cancion2, cancion3]
@@ -33,8 +33,8 @@ var disco = {
 console.log('Nombre del disco: ', disco.nombre);
 console.log('Nombre del autor: ', disco.autor.nombre);
 
-var integrantes = disco.autor.integrantes;
+const integrantes = disco.autor.integrantes;
 console.log('Integrantes: ', integrantes[0], integrantes[1], integrantes[2]);
 
-var canciones = disco.canciones;
+const canciones = disco.canciones;
 console.log('Canciones: ', canciones[0], canciones[1], canciones[2]);

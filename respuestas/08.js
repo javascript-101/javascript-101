@@ -2,7 +2,7 @@
     Dado el siguiente array de meses del año:
 
         ```javascript
-        var meses = [
+        const meses = [
             'Enero', // índice `0`
             'Febrero',
             'Marzo',
@@ -24,7 +24,7 @@
         1. Muestre por terminal el **_nombre_** del mes de tu cumpleaños.
 */
 
- var meses = [
+ const meses = [
     'Enero', // índice `0`
     'Febrero',
     'Marzo',
@@ -39,8 +39,8 @@
     'Diciembre'  // índice 11, equivalente a `meses.length - 1`
 ];
 
-var numeroDelMesDeMiCumpleanos = 5;
-var nombreDelMesDeMiCumpleanos = meses[5 - 1];
+let numeroDelMesDeMiCumpleanos = 5;
+nombreDelMesDeMiCumpleanos = meses[5 - 1];
 
 console.log(nombreDelMesDeMiCumpleanos);
 
@@ -48,7 +48,7 @@ console.log(nombreDelMesDeMiCumpleanos);
     Dado los siguientes arrays:
 
         ```javascript
-        var meses = [
+        const meses = [
             'Enero',
             'Febrero',
             'Marzo',
@@ -63,7 +63,7 @@ console.log(nombreDelMesDeMiCumpleanos);
             'Diciembre'
         ];
 
-        var planetas = [
+        const planetas = [
             'Mercurio',
             'Venus',
             'Tierra',
@@ -81,7 +81,7 @@ console.log(nombreDelMesDeMiCumpleanos);
         1. Mostrar el cuarto planeta por pantalla (`Marte`).
 */
 
-var meses = [
+const meses = [
     'Enero',
     'Febrero',
     'Marzo',
@@ -95,7 +95,7 @@ var meses = [
     'Noviembre',
     'Diciembre'
 ]
-var planetas = [
+const planetas = [
     'Mercurio',
     'Venus',
     'Tierra',
@@ -119,28 +119,28 @@ console.log(planetas[3]);
     1. Dado el siguiente array de nombres:
 
         ```javascript
-        var nombres = ['Sofía', 'Abril'];
-        var apellidos = ['Rodriguez', 'López'];
+        const nombres = ['Sofía', 'Abril'];
+        const apellidos = ['Rodriguez', 'López'];
         ```
 
         1. Mostrar por la terminal el primer elemento de cada array.
         1. Crear un nuevo array llamado `nombreCompleto` que contenga el segundo elemento del array `nombres` y el primer elemento del array `apellidos`. Mostrar el nuevo array por la terminal.
 */
 
-var nombres = ['Sofía', 'Abril'];
-var apellidos = ['Rodriguez', 'López'];
+const nombres = ['Sofía', 'Abril'];
+const apellidos = ['Rodriguez', 'López'];
 
 console.log(nombres[0]);
 console.log(apellidos[0]);
 
-var nombreCompleto = [nombres[1], apellidos[0]];
+const nombreCompleto = [nombres[1], apellidos[0]];
 console.log(nombreCompleto);
 
 /*
     1. Dado el siguiente array de participantes de una carrera y considerando que están ordenados en base al orden de llegada (el primer elemento es el primero en haber llegado):
 
         ```javascript
-        var corredores = [
+        const corredores = [
             'Margarita', // ganó la carrera
             'Juan',
             'Raquel',
@@ -155,7 +155,7 @@ console.log(nombreCompleto);
         1. Crear un nuevo array llamado `losUltimos` que contenga los 2 últimos corredores en llegar (usando la propiedad `length` que tienen los arrays). Mostrar este nuevo array por la terminal.
 */
 
-var corredores = [
+const corredores = [
     'Margarita', // ganó la carrera
     'Juan',
     'Raquel',
@@ -169,5 +169,5 @@ console.log(corredores[0]);
 console.log(corredores[1]);
 console.log(corredores[2]);
 
-var losUltimos = [corredores[corredores.length - 1], corredores[corredores.length - 2]];
+const losUltimos = [corredores[corredores.length - 1], corredores[corredores.length - 2]];
 console.log(losUltimos);

@@ -1,8 +1,8 @@
 // 2
-var nombreDeCancion = 'En la ciudad de la furia';
+const nombreDeCancion = 'En la ciudad de la furia';
 
 // 3
-var autor = 'Soda Stereo';
+const autor = 'Soda Stereo';
 
 // 4
 console.log(nombreDeCancion);

@@ -4,7 +4,7 @@ function sumar(numero1, numero2) {
 }
 
 // 3
-var resultado = sumar(2, 3);
+const resultado = sumar(2, 3);
 
 // 4
 console.log(resultado);
@@ -16,7 +16,7 @@ function saludar(usuario) {
 }
 
 // 7
-var saludo = saludar('nicolas');
+const saludo = saludar('nicolas');
 
 // 8
 console.log(saludo);
@@ -27,22 +27,22 @@ function autenticar(usuario, password) {
 }
 
 // 10
-var usuarioValido = autenticar('javascript101', 1234);
+const usuarioValido = autenticar('javascript101', 1234);
 
 // 11
 console.log(usuarioValido);
 
 // 12
-var usuarioValido = autenticar('ruby101', 12345);
+const usuarioValido = autenticar('ruby101', 12345);
 
 // 13
 console.log(usuarioValido);
 
 // 14
-var nombreDeUsuario = 'javascript101';
+const nombreDeUsuario = 'javascript101';
 
 // 15
-var passwordDeUsuario = 1234;
+const passwordDeUsuario = 1234;
 
 // 16
 

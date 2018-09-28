@@ -1,5 +1,5 @@
 // 2
-var saludar = function() {
+const saludar = function() {
     console.log('Bienvenido a Spotify');
 }
 
@@ -8,7 +8,7 @@ saludar();
 
 
 // 4
-var sumar = function() {
+const sumar = function() {
     console.log( 2 + 2);
 }
 
@@ -16,13 +16,13 @@ var sumar = function() {
 sumar();
 
 // 6
-var cancion = {
+const cancion = {
     nombre: 'En la ciudad de la furia',
     duracion: 345
 };
 
 // 7
-var mostrarCancion = function() {
+const mostrarCancion = function() {
     console.log(cancion.nombre);
     console.log(cancion.duracion);
 }

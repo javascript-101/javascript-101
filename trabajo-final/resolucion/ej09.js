@@ -1,3 +1,3 @@
 // 2
-var argumentos = process.argv;
+const argumentos = process.argv;
 console.log(argumentos);

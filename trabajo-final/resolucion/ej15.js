@@ -1,5 +1,5 @@
 // 2
-var usuario = 'javascript101';
+const usuario = 'javascript101';
 
 if (usuario == 'javascript101') {
     console.log('Bienvenido javascript101 a spotify');
@@ -12,16 +12,16 @@ if (usuario == 'ruby101') {
 }
 
 // 6
-var duracion = 345;
+const duracion = 345;
 
 // 7
-var mensaje;
+let mensaje;
 
 // 8
 mensaje = (duracion > 300) ? 'Esta canción es muy larga' : 'Esta cancion no es muy larga';
 
 // 9
-var password = 1234;
+const password = 1234;
 
 // 10
 if ( (usuario == 'javascript101') &&  (password == 1234) ) {
@@ -31,7 +31,7 @@ if ( (usuario == 'javascript101') &&  (password == 1234) ) {
 }
 
 // 11
-var usuario1 = {
+const usuario1 = {
     nombre: 'javascript101',
     password: 1234
 };

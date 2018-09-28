@@ -2,9 +2,9 @@
     Un año de vida para las personas, representa 7 años en la vida de un perro. Escribí un programa que reciba como parámetro tu edad (no te olvides de usar la función `Number` para convertirla de string a número) y mostrá por la terminal cuantos años tendrías si fueras un perro (tu edad multiplicada por 7).
 */
 
-var miEdadComoString = process.argv[2];
-var miEdad = Number(miEdadComoString);
-var miEdadEnAnosPerrunos = miEdad * 7;
+const miEdadComoString = process.argv[2];
+const miEdad = Number(miEdadComoString);
+const miEdadEnAnosPerrunos = miEdad * 7;
 
 console.log(miEdadEnAnosPerrunos);
 
@@ -36,9 +36,9 @@ console.log(miEdadEnAnosPerrunos);
         ```
 */
 
-var persona = process.argv[2];
-var notaComoString = process.argv[3];
-var nota = Number(notaComoString);
+const persona = process.argv[2];
+const notaComoString = process.argv[3];
+const nota = Number(notaComoString);
 
 console.log('El/La alumno/a llamado/a', persona, ' se sacó un', nota);
 

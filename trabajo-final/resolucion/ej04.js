@@ -1,5 +1,5 @@
 // 2
-var cancion = {
+const cancion = {
     nombre: 'En la ciudad de la furia',
     autor: 'Soda Stereo',
     duracion: 345,

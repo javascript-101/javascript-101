@@ -1,5 +1,5 @@
 // 2
-var autor = 'Viejas Locas';
+const autor = 'Viejas Locas';
 
 // 3
 switch (autor) {

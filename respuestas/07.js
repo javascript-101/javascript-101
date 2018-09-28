@@ -11,8 +11,8 @@
         1. Si ambos se sacan un `7`, mostrar `'Ambos hijos tuvieron la misma nota'`.
 */
 
-var notaDeJuan = 10;
-var notaDePedro = 8;
+const notaDeJuan = 10;
+const notaDePedro = 8;
 
 if (notaDeJuan > notaDePedro) {
     console.log(notaDeJuan);
@@ -35,10 +35,10 @@ if (notaDeJuan > notaDePedro) {
         1. Si el monto de la compra es 200. Mostrar `170`, equivalente a `200 - descuento`. Para calcular el descuento ya te dí una pista 😉.
 */
 
-var compra = 500;
+const compra = 500;
 
 if (compra > 100) {
-    var descuento = compra * 15 / 100;
+    const descuento = compra * 15 / 100;
 
     console.log(compra - descuento);
 } else {

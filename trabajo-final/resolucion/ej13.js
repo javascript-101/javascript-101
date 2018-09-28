@@ -17,8 +17,8 @@ console.log('2 == "2": ', 2 == "2");
 console.log('2 === "2"', 2 === "2");
 
 // 8
-var duracion1;
-var duracion2;
+let duracion1;
+let duracion2;
 
 // 9
 duracion1 = 345;

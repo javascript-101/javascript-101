@@ -1,5 +1,5 @@
 // 2
-var contador = 1;
+let contador = 1;
 
 // 3
 do {

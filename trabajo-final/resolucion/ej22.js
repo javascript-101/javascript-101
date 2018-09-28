@@ -9,10 +9,10 @@ function obtenerDuracionDeCancion() {
 }
 
 // 4
-var cancion = obtenerNombreDeCancion();
+const cancion = obtenerNombreDeCancion();
 
 // 5
-var duracion = obtenerDuracionDeCancion();
+const duracion = obtenerDuracionDeCancion();
 
 // 6
 console.log(cancion);

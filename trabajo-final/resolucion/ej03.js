@@ -1,17 +1,17 @@
 // 2
-var nombreDeCancion = 'En la ciudad de la furia';
+const nombreDeCancion = 'En la ciudad de la furia';
 
 // 3
-var autor = 'Soda Stereo';
+const autor = 'Soda Stereo';
 
 // 4
-var duracion = 345;
+const duracion = 345;
 
 // 5
-var reproducir = false;
+const reproducir = false;
 
 // 6
-var favorita = true;
+const favorita = true;
 
 // 7
 console.log('Canción: ', nombreDeCancion);
