@@ -41,23 +41,6 @@ var dineroQueMeFalta = costoDeUnaTele - ahorros;
 console.log(dineroQueMeFalta);
 
 /*
-    Declarar 3 variables:
-
-    * `diasPorAno` y asignarle el número `365`
-    * `cantidadDeAnosEnUnaDecada` y asignarle el número `10`
-    * `cantidadDeDiasEnUnaDecada` y asignarle el resultado de multiplicar las 2 variables anteriores.
-
-    Mostrar por la terminal cuantos días hay en una década.
-*/
-
-var diasPorAno = 365;
-var cantidadDeAnosEnUnaDecada = 10;
-
-var cantidadDeDiasEnUnaDecada = 365 * 10;
-
-console.log(cantidadDeDiasEnUnaDecada);
-
-/*
     Teniendo en cuenta que una pizza siempre tiene 8 porciones, mostrar por la terminal cuantas pizzas tengo en la mesa si conté 24 porciones.
 
     Preguntas que te deberías hacer para resolver este ejercicio: ¿Qué números menciona el enunciado?, ¿Los puedo guardar en variables?, ¿Qué cuenta puedo hacer para obtener el resultado?
