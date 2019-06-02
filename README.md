@@ -64,3 +64,10 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [Eloquent JavaScript en español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
 1. [Aprende ECMAScript 6](https://carlosazaustre.es/ecmascript-6-el-nuevo-estandar-de-javascript/)
 1. [Mozilla - Clases en ECMAScript 6](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes)
+
+## ¡Comunidades amigas!
+
+* [WorkshopsJS](https://github.com/workshopsjs)
+* [freeCodeCamp BA](https://freecodecampba.org/)
+* [Chicas Programando](http://chicasprogramando.com/)
+* [Women Who Code Buenos Aires](https://www.womenwhocode.com/buenosaires)
