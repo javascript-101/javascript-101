@@ -4,7 +4,7 @@
 let colorFavoritoUsuarie = prompt('Por favor, ingresa tu color favorito');
 
 // Definimos el formato que tendrá el mensaje
-let mensaje = 'Tu color favorito es: ' + colorFavoritoUsuarie + '';
+let mensaje = 'Tu color favorito es: ' + colorFavoritoUsuarie;
 
 // Mostramos por el navegador el mensaje
 alert(mensaje)
