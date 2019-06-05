@@ -33,7 +33,6 @@ Este workshop es una introducción a la programación usando JavaScript.
 ## Ejercicios
 
 1. [console.log](/ejercicios/conceptuales/01.md)
-1. [Errores Comunes](/ejercicios/conceptuales/02.md)
 1. [Números, Cadenas de Texto y Booleanos](/ejercicios/conceptuales/03.md)
 1. [Variables](/ejercicios/conceptuales/04.md)
 1. [Operadores](/ejercicios/conceptuales/05.md)
