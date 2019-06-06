@@ -1,55 +1,24 @@
-/*
-    Declarar una variable que se llame `ganeLaCarrera` y asignarle el valor `false`. Mostrar por la terminal un mensaje que diga `'Ganaste'` si `ganeLaCarrera` es verdadero y `'Perdiste'` si su valor es falso.
-*/
+// 1. Hacer un programa que pida tu color favorito y te lo muestre en el navegador.
 
-var ganeLaCarrera = false;
+// Pedimos y guardamos el color
+let colorFavoritoUsuarie = prompt('Por favor, ingresa tu color favorito');
 
-if (ganeLaCarrera == true) {
-    console.log('Ganaste');
-} else {
-    console.log('Perdiste');
-}
+// Definimos el formato que tendrá el mensaje
+let mensaje = 'Tu color favorito es: ' + colorFavoritoUsuarie;
 
-/*
-    Declarar una variable que se llame `posicionEnLaCarrera` y asignarle el número `6`. Mostrar por la terminal uno de los siguientes mensajes según la posición que salió el corredor:
+// Mostramos por el navegador el mensaje
+alert(mensaje)
 
-        * `'FELICITACIONES, SALISTE 1RO'` si la `posicionEnLaCarrera` es 1.
-        * `'Te falto poquito para ganar'` si la `posicionEnLaCarrera` es 2.
-        * `'Sos un orgullo para tu familia'` si la `posicionEnLaCarrera` es 3.
-        * `'Volvé a tu casa'` si la `posicionEnLaCarrera` es mayor a 3.
-*/
+// 2. Hacer un programa que pida tu edad y le reste 10 y luego muestre el resultado por el navegador. 
 
-var posicionEnLaCarrera = 6;
+// Pedimos la edad al usuarie
+let edadUsuarieCadenaDeTexto = prompt('Por favor, ingrese su edad');
 
-if (posicionEnLaCarrera == 1) {
-    console.log('FELICITACIONES, SALISTE 1RO');
-} else if (posicionEnLaCarrera == 2) {
-    console.log('Te falto poquito para ganar');
-} else if (posicionEnLaCarrera == 3) {
-    console.log('Sos un orgullo para tu familia');
-} else if (posicionEnLaCarrera > 3) {
-    console.log('Volvé a tu casa');
-} else {
-    console.log('No tires fruta')
-}
+// Transformamos la cadena de texto en tipo número para poder luego restarla
+let edadUsuarie = Number(numeroFavoritoCadenaDeTexto);
 
-/*
-    Repetir el ejercicio anterior pero usando un solo `console.log` en todo el programa.
-*/
+// Definimos una edad ideal
+let edadIdeal = edadUsuarie - 10;
 
-var posicionEnLaCarrera = 6;
-var mensaje = '';
-
-if (posicionEnLaCarrera == 1) {
-    mensaje = 'FELICITACIONES, SALISTE 1RO';
-} else if (posicionEnLaCarrera == 2) {
-    mensaje = 'Te falto poquito para ganar';
-} else if (posicionEnLaCarrera == 3) {
-    mensaje = 'Sos un orgullo para tu familia';
-} else if (posicionEnLaCarrera > 3) {
-    mensaje = 'Volvé a tu casa';
-} else {
-    mensaje = 'No tires fruta';
-}
-
-console.log(mensaje);
+// Mostramos la edadIdeal
+alert(edadUsuarie)

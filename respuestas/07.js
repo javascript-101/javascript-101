@@ -1,46 +1,115 @@
-/*
-    Juan y Pedro son hermanos. La semana pasada tuvieron una prueba en el colegio y hoy la profesora les dio la nota. Escribir un programa que:
-        1. Declare y asigne 2 variables de tipo número: una con la nota de Juan (`10`) y otra con la nota de Pedro (`8`). Nombrá a las variables como más te guste.
-        1. Mostrar por la terminal el valor más grande de los 2.
-        1. Considerá el caso de que pueden ser iguales 🙊. Si eso ocurre, mostrar el mensaje: `'Ambos hijos tuvieron la misma nota'`.
+// 1
 
-        Casos que te pueden ayudar para probar:
+const nombreEmpresaUno = "Empresa1";
+const saludoEmpresaUno = "Buenas tardes, muchas gracias por adquirir su torta.";
 
-        1. Si Juan se saca un `4` y Pedro un `6`. Mostrar `6`.
-        1. Si Juan se saca un `9` y Pedro un `8`. Mostrar `9`.
-        1. Si ambos se sacan un `7`, mostrar `'Ambos hijos tuvieron la misma nota'`.
-*/
+const nombreEmpresaDos = "Empresa2";
+const saludoEmpresaDos = "¡Hola! Muy buena onda que compren tortas ;D";
 
-var notaDeJuan = 10;
-var notaDePedro = 8;
+const nombreEmpresaTres = "Empresa3";
+const saludoEmpresaTres = "¡Muchas thank you!";
 
-if (notaDeJuan > notaDePedro) {
-    console.log(notaDeJuan);
-} else if (notaDePedro > notaDeJuan) {
-    console.log(notaDePedro);
-} else {
-    console.log('Ambos hijos tuvieron la misma nota');
+const saludoGenérico = "¡Muchas gracias!";
+
+function devolverSaludo() {
+    const empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
+
+    if (empresaCargadaPorUsuario === nombreEmpresaUno) {
+        alert(saludoEmpresaUno)
+    } else if (empresaCargadaPorUsuario === nombreEmpresaUno) {
+        alert(saludoEmpresaDos)
+    } else if (empresaCargadaPorUsuario === nombreEmpresaUno) {
+        alert(saludoEmpresaTres)
+    } else {
+        const confirmacion = confirm("Esa empresa no existe, ¿Deseas ver un saludo genérico?");
+        if (confirmacion) {
+            alert(saludoGenérico);
+        } else {
+            devolverSaludo();
+        }
+    }
 }
 
-/*
-    Una farmacia hace el 15% de descuento a sus clientes si la compra es mayor a 100 pesos. Escribir un programa que dado el monto de una compra como valor numérico, diga cuanto debe abonar el cliente aplicando el descuento si es necesario.
+// devolverSaludo();
 
-        > Tip: Para obtener el porcentaje de un número podés usar la siguiente fórmula: `número * descuento / 100` (La famosa regla de 3 simple 😮).
+// 2
 
-        Si el monto de compra es de 500 pesos, ¿cuánto debe pagar el cliente?
+const nombreEmpresaUno = "Empresa1";
+const saludoEmpresaUno = "Buenas tardes, muchas gracias por adquirir su torta.";
+const tortasCompradasEmpresaUno = 352;
 
-        Casos que te pueden ayudar para probar:
+const nombreEmpresaDos = "Empresa2";
+const saludoEmpresaDos = "¡Hola! Muy buena onda que compren tortas ;D";
+const tortasCompradasEmpresaUno = 470;
 
-        1. Si el monto de la compra es `55`. Mostrar `55` (Es menor a 100, por lo que no se aplica descuento).
-        1. Si el monto de la compra es 200. Mostrar `170`, equivalente a `200 - descuento`. Para calcular el descuento ya te dí una pista 😉.
-*/
+const nombreEmpresaTres = "Empresa3";
+const saludoEmpresaTres = "¡Muchas thank you!";
+const tortasCompradasEmpresaUno = 563;
 
-var compra = 500;
+const saludoGenérico = "¡Muchas gracias!";
 
-if (compra > 100) {
-    var descuento = compra * 15 / 100;
+const tortasExtrasPedidoMinimo = 10;
+const tortasExtrasDadas = 1;
+const tortasExtrasCada = 15;
 
-    console.log(compra - descuento);
-} else {
-    console.log(compra);
+function devolverSaludo(nombreEmpresa) {
+    let empresaCargadaPorUsuario = nombreEmpresa;
+    if (!empresaCargadaPorUsuario) {
+        empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
+    }
+
+    if (empresaCargadaPorUsuario === nombreEmpresaUno) {
+        alert(saludoEmpresaUno)
+    } else if (empresaCargadaPorUsuario === nombreEmpresaUno) {
+        alert(saludoEmpresaDos)
+    } else if (empresaCargadaPorUsuario === nombreEmpresaUno) {
+        alert(saludoEmpresaTres)
+    } else {
+        const confirmacion = confirm("Esa empresa no existe, ¿Deseas ver un saludo genérico?");
+        if (confirmacion) {
+            alert(saludoGenérico);
+        } else {
+            devolverSaludo();
+        }
+    }
 }
+
+function aplicarDescuentos(cantidadTortasCompradasEmpresa, monto) {
+
+    const descuentoNivel1TortasNecesarias = 100;
+    const descuentoNivel1Valor = 0.10;
+
+    const descuentoNivel2TortasNecesarias = 500;
+    const descuentoNivel2Valor = 0.15;
+
+    if (cantidadTortasCompradasEmpresa >= descuentoNivel2TortasNecesarias) {
+        return monto - (1 - descuentoNivel2Valor);
+    } else if (cantidadTortasCompradasEmpresa >= descuentoNivel1TortasNecesarias) {
+        return monto - (1 - descuentoNivel1Valor);
+    } else {
+        return monto;
+    }
+}
+
+function devolverMontoTotal(nombreEmpresa) {
+    let empresaCargadaPorUsuario = nombreEmpresa;
+    if (!empresaCargadaPorUsuario) {
+        empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
+    }
+
+    const monto = Number(prompt("Por favor, escriba el valor del monto"))
+
+    if (empresaCargadaPorUsuario === nombreEmpresaUno) {
+        alert(aplicarDescuentos(tortasCompradasEmpresaUno, monto))
+    } else if (empresaCargadaPorUsuario === nombreEmpresaDos) {
+        alert(aplicarDescuentos(tortasCompradasEmpresaDos, monto))
+    } else if (empresaCargadaPorUsuario === nombreEmpresaTres) {
+        alert(aplicarDescuentos(tortasCompradasEmpresaTres, monto))
+    } else {
+        alert(monto)
+    }
+}
+
+const empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
+devolverMontoTotal(empresaCargadaPorUsuario);
+devolverSaludo(empresaCargadaPorUsuario);
