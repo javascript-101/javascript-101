@@ -4,14 +4,10 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 [Empezar con el workshop](/ejercicios/conceptuales/01.md)
 
-## Requisitos
+## Requisito
 
-* [Node.js](https://nodejs.org/en/)
-* Uno de estos editores de texto
-  * [Visual Studio Code](https://code.visualstudio.com/)
-  * [Atom](https://atom.io/)
-  * [Sublime Text](https://www.sublimetext.com/)
-  * [Notepad++](https://notepad-plus-plus.org/)
+* Para el workshop vamos a estar utilizando un editor de texto online, [Stackblitz](https://stackblitz.com/fork/js), por lo que te pedimos que entres al enlace y hagas un fork del proyecto para poder trabajar con mayor comodidad.
+
 
 ## Introducción
 
@@ -32,18 +28,13 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Ejercicios
 
-1. [console.log](/ejercicios/conceptuales/01.md)
-1. [Errores Comunes](/ejercicios/conceptuales/02.md)
-1. [Números, Cadenas de Texto y Booleanos](/ejercicios/conceptuales/03.md)
-1. [Variables](/ejercicios/conceptuales/04.md)
-1. [Operadores](/ejercicios/conceptuales/05.md)
-1. [Condicionales](/ejercicios/conceptuales/06.md)
-1. [Parcialito 🙊](/ejercicios/conceptuales/07.md)
-1. [Arrays](/ejercicios/conceptuales/08.md)
-1. [Parámetros de Ejecución en una Aplicación Node.js](/ejercicios/conceptuales/09.md)
-1. [Parcialito 2 🙊](/ejercicios/conceptuales/10.md)
-1. [Objetos](/ejercicios/conceptuales/11.md)
-1. [Trabajo Final 🙊🙊🙊](/trabajo-final/README.md)
+1. [alert()](/ejercicios/conceptuales/01.md)
+1. [Números, Cadenas de Texto y Booleanos](/ejercicios/conceptuales/02.md)
+1. [Variables](/ejercicios/conceptuales/03.md)
+1. [Operadores](/ejercicios/conceptuales/04.md)
+1. [Condicionales](/ejercicios/conceptuales/05.md)
+1. [prompt()](/ejercicios/conceptuales/06.md)
+1. [Ejercicio Integrador](/ejercicios/conceptuales/07.md)
 
 ### Ejercicios Botiquín Virtual
 1. [Variables](/ejercicios/botiquin/1_variables.md)

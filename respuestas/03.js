@@ -1,15 +1,31 @@
-// Usando un número, mostrar tu edad por la terminal.
+// Declarar una variable de nombre `cantidadDeVentanasEnMiCasa` y asignarle la cantidad de ventanas que hay en tu casa. Mostrar el valor de la variable por la terminal.
 
-console.log(27);
+var cantidadDeVentanasEnMiCasa = 3;
 
-// Usando una cadena de caracteres, mostrar tu nombre por la terminal.
+console.log(cantidadDeVentanasEnMiCasa);
 
-console.log('Cristhian');
+// Declarar una variable de nombre `soyHumano` y asignarle el valor `true` (verdadero). Mostrar el valor de la variable por la terminal.
 
-// Usando un booleano, mostrar el valor verdadero por la terminal.
+var soyHumano = true;
 
-console.log(true);
+console.log(soyHumano);
 
-// Usando un solo `console.log`, mostrar los valores `1`, `200`, `'Genial'`, `false`, `true`.
+// Declarar una variable de nombre `miGustoDePizzaPreferido` y asignarle la variedad de pizza que más te guste usando un `string` (cadena de caracteres). Mostrar el valor de la variable por la terminal.
 
-console.log(1, 200, 'Genial', false, true);
+var miGustoDePizzaPreferido = 'Con Jamón';
+
+console.log(miGustoDePizzaPreferido);
+
+// Mostrar por la terminal los siguientes valores `false`, `'Hola'`, `0` y `'Minions'` usando la misma variable.
+
+var variable = false;
+console.log(variable);
+
+variable = 'Hola';
+console.log(variable);
+
+variable = 0;
+console.log(variable);
+
+variable = 'Minions';
+console.log(variable);
