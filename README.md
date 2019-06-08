@@ -38,11 +38,12 @@ Este workshop es una introducción a la programación usando JavaScript.
 > Links extras ver los que estan agregar mas, mencionar comunidades. etc
 
 1. [JavaScript para gatos](https://jsparagatos.com/)
-2. [Free Code Camp BA - Introducción a JavaScript](https://github.com/nhsz/intro-js)
-3. [NodeSchool.io - JavaScripting](https://github.com/workshopper/javascripting)
-4. [Introducción a JavaScript en la web](http://librosweb.es/libro/javascript/)
-5. [Platzi - Curso de Programación básica](https://platzi.com/cursos/programacion-basica/)
-6. [Eloquent JavaScript en español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
-7. [Aprende ECMAScript 6](https://carlosazaustre.es/ecmascript-6-el-nuevo-estandar-de-javascript/)
-8. [Mozilla - Clases en ECMAScript 6](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes)
-
+1. [Free Code Camp BA - Introducción a JavaScript](https://github.com/nhsz/intro-js)
+1. [NodeSchool.io - JavaScripting](https://github.com/workshopper/javascripting)
+1. [Introducción a JavaScript en la web](http://librosweb.es/libro/javascript/)
+1. [Platzi - Curso de Programación básica](https://platzi.com/cursos/programacion-basica/)
+1. [Eloquent JavaScript](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
+1. [Aprende ECMAScript 6](https://carlosazaustre.es/ecmascript-6-el-nuevo-estandar-de-javascript/)
+1. [Learn Vanilla Js __en Inglés__](https://learnvanillajs.com/)
+1. [The Modern JavaScript Tutorial __en Inglés__](https://javascript.info/)
+1. [The Complete JavaScript Handbook __en Inglés__](https://medium.com/free-code-camp/the-complete-javascript-handbook-f26b2c71719c)
