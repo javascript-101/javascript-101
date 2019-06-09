@@ -11,30 +11,20 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Introducción
 
-1. ¿Qué es un lenguaje de programación?
-    * Lenguaje que por medio de semántica y estructura permite darle instrucciones a una computadora.
-    * Existen muchos lenguajes y casos de uso.
-1. ¿Qué es JavaScript?
-    * Es un lenguaje de programación interpretado y multiparadigma.
-    * Interpretado quiere decir que en tiempo de ejecución, las instrucciones se transforman a código máquina para ser ejecutado, a diferencia de los lenguajes compilados que requieren un paso extra que es compilar el programa y generar un archivo ejecutable.
-    * Hay muchas maneras de programar (Funcional, Orientado a objetos).
-    * Creado por Brendan Eich, nació en 1995.
-    * El propósito inicial fue hacer páginas web más dinámicas.
-    * Fue evolucionando y hoy en día hasta lo podemos usar en servidores y otros casos de uso para los que nunca fue creado.
-1. ¿Por qué JavaScript?
-    * Hoy en día, JavaScript tiene muchísimos casos de uso diferentes, desde manipular robots u otro tipos de hardware, hacer gráficos complejos, proyectos en realidad virtual y escribir aplicaciones para teléfonos y navegadores.
-    * Node.js se presenta en 2009.
-1. Escribir y ejecutar nuestro primer programa en el navegador y en la consola.
+Javacript es un lenguaje ligero, interpretado, orientado a objetos y se lo conoce más por su presencia en la web. 
+Aunque hoy en dia lo podemos utilizar en otros entornos, el avance sobre el lenguaje y sus distintas implementaciones hoy en día nos permite encontrarlo más allá de la web.
+
+Para conocer más sobre la historia y los fundamentos de Javascript podes empezar por acá: [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 ## Ejercicios
 
 1. [alert()](/ejercicios/conceptuales/01.md)
-1. [Números, Cadenas de Texto y Booleanos](/ejercicios/conceptuales/02.md)
-1. [Variables](/ejercicios/conceptuales/03.md)
-1. [Operadores](/ejercicios/conceptuales/04.md)
-1. [Condicionales](/ejercicios/conceptuales/05.md)
-1. [prompt()](/ejercicios/conceptuales/06.md)
-1. [Ejercicio Integrador](/ejercicios/conceptuales/07.md)
+2. [Números, Cadenas de Texto y Booleanos](/ejercicios/conceptuales/02.md)
+3. [Variables](/ejercicios/conceptuales/03.md)
+4. [Operadores](/ejercicios/conceptuales/04.md)
+5. [Condicionales](/ejercicios/conceptuales/05.md)
+6. [prompt()](/ejercicios/conceptuales/06.md)
+7. [Ejercicio Integrador](/ejercicios/conceptuales/07.md)
 
 ### Ejercicios Botiquín Virtual
 1. [Variables](/ejercicios/botiquin/1_variables.md)
