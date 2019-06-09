@@ -2,11 +2,9 @@
 
 Este workshop es una introducción a la programación usando JavaScript.
 
-[Empezar con el workshop](/ejercicios/conceptuales/01.md)
-
 ## Requisito
 
-* Para el workshop vamos a estar utilizando un editor de texto online, [Stackblitz](https://stackblitz.com/fork/js), por lo que te pedimos que entres al enlace y hagas un fork del proyecto para poder trabajar con mayor comodidad.
+* Para el workshop vamos a estar utilizando un editor de texto online, [Stackblitz](https://stackblitz.com/fork/js), por lo que te pedimos que entres al enlace para poder trabajar con mayor comodidad.
 
 
 ## Introducción
@@ -15,6 +13,8 @@ Javacript es un lenguaje ligero, interpretado, orientado a objetos y se lo conoc
 Aunque hoy en dia lo podemos utilizar en otros entornos, el avance sobre el lenguaje y sus distintas implementaciones hoy en día nos permite encontrarlo más allá de la web.
 
 Para conocer más sobre la historia y los fundamentos de Javascript podes empezar por acá: [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+[Empezar con el workshop](/ejercicios/conceptuales/01.md)
 
 ## Ejercicios
 
