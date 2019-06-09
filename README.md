@@ -25,14 +25,15 @@ Para conocer más sobre la historia y los fundamentos de Javascript podes empeza
 5. [Condicionales](/ejercicios/conceptuales/05.md)
 6. [prompt()](/ejercicios/conceptuales/06.md)
 7. [Ejercicio Integrador](/ejercicios/conceptuales/07.md)
+8. [Funciones](/ejercicios/conceptuales/08.md)
 
 ### Ejercicios Botiquín Virtual
 1. [Variables](/ejercicios/botiquin/1_variables.md)
-1. [Operadores y Expresiones](/ejercicios/botiquin/2_operadores_expresiones.md)
-1. [Arrays](/ejercicios/botiquin/3_arrays.md)
-1. [Estructuras de control](/ejercicios/botiquin/4_estructuras_control.md)
-1. [Objetos](/ejercicios/botiquin/5_objetos.md)
-1. [Funciones](/ejercicios/botiquin/6_funciones.md)
+2. [Operadores y Expresiones](/ejercicios/botiquin/2_operadores_expresiones.md)
+3. [Arrays](/ejercicios/botiquin/3_arrays.md)
+4. [Estructuras de control](/ejercicios/botiquin/4_estructuras_control.md)
+5. [Objetos](/ejercicios/botiquin/5_objetos.md)
+6. [Funciones](/ejercicios/botiquin/6_funciones.md)
 7. [Aplicación Web](/ejercicios/botiquin/7_aplicacion_web.md)
 
 ## Links extras para seguir aprendiendo
