@@ -1,15 +1,15 @@
 // Usando un número, mostrar tu edad por la terminal.
 
-console.log(27);
+alert(27);
 
 // Usando una cadena de caracteres, mostrar tu nombre por la terminal.
 
-console.log('Cristhian');
+alert('Cristhian');
 
 // Usando un booleano, mostrar el valor verdadero por la terminal.
 
-console.log(true);
+alert(true);
 
-// Usando un solo `console.log`, mostrar los valores `1`, `200`, `'Genial'`, `false`, `true`.
+// Usando un solo `alert`, mostrar los valores `1`, `200`, `'Genial'`, `false`, `true`.
 
-console.log(1, 200, 'Genial', false, true);
+alert(1, 200, 'Genial', false, true);
