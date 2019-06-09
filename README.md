@@ -35,6 +35,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. [Condicionales](/ejercicios/conceptuales/05.md)
 1. [prompt()](/ejercicios/conceptuales/06.md)
 1. [Ejercicio Integrador](/ejercicios/conceptuales/07.md)
+1. [Funciones](/ejercicios/conceptuales/08.md)
 
 ### Ejercicios Botiquín Virtual
 1. [Variables](/ejercicios/botiquin/1_variables.md)
