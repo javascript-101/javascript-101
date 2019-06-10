@@ -4,7 +4,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 ## Requisito
 
-* Para el workshop vamos a estar utilizando un editor de texto online, [Stackblitz](https://stackblitz.com/fork/js), por lo que te pedimos que entres al enlace para poder trabajar con mayor comodidad.
+* Para el workshop vamos a estar utilizando un editor de texto online, [Stackblitz](https://stackblitz.com/fork/javascript101), por lo que te pedimos que entres al enlace para poder trabajar con mayor comodidad.
 
 
 ## Introducción
