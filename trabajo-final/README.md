@@ -7,7 +7,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 1. ¿Qué es Programar?
 2. ¿Qué es JavaScript?
 3. Historia de JS
-4. Escribir y ejecutar nuestro primer programa (Browser, Consola)
+4. Escribir y ejecutar nuestro primer programa \(Browser, Consola\)
 5. Variables
 6. Tipos de datos
 7. Input & output
@@ -16,3 +16,4 @@ Este workshop es una introducción a la programación usando JavaScript.
 10. Valores verdaderos y falsos
 11. Estructuras de repetición
 12. Funciones
+
