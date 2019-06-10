@@ -5,9 +5,9 @@
 var ganeLaCarrera = false;
 
 if (ganeLaCarrera == true) {
-    console.log('Ganaste');
+    alert('Ganaste');
 } else {
-    console.log('Perdiste');
+    alert('Perdiste');
 }
 
 /*
@@ -22,19 +22,19 @@ if (ganeLaCarrera == true) {
 var posicionEnLaCarrera = 6;
 
 if (posicionEnLaCarrera == 1) {
-    console.log('FELICITACIONES, SALISTE 1RO');
+    alert('FELICITACIONES, SALISTE 1RO');
 } else if (posicionEnLaCarrera == 2) {
-    console.log('Te falto poquito para ganar');
+    alert('Te falto poquito para ganar');
 } else if (posicionEnLaCarrera == 3) {
-    console.log('Sos un orgullo para tu familia');
+    alert('Sos un orgullo para tu familia');
 } else if (posicionEnLaCarrera > 3) {
-    console.log('Volvé a tu casa');
+    alert('Volvé a tu casa');
 } else {
-    console.log('No tires fruta')
+    alert('No tires fruta')
 }
 
 /*
-    Repetir el ejercicio anterior pero usando un solo `console.log` en todo el programa.
+    Repetir el ejercicio anterior pero usando un solo `alert` en todo el programa.
 */
 
 var posicionEnLaCarrera = 6;
@@ -52,4 +52,4 @@ if (posicionEnLaCarrera == 1) {
     mensaje = 'No tires fruta';
 }
 
-console.log(mensaje);
+alert(mensaje);
