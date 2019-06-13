@@ -6,6 +6,10 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 * Para el workshop vamos a estar utilizando un editor de texto online, [Stackblitz](https://stackblitz.com/fork/javascript101), por lo que te pedimos que entres al enlace para poder trabajar con mayor comodidad.
 
+Acá te dejamos un GIF en el cual se ve cómo usar este editor.
+
+![](JS101.gif)
+
 ## Introducción
 
 Javacript es un lenguaje ligero, interpretado, orientado a objetos y se lo conoce más por su presencia en la web. Aunque hoy en dia lo podemos utilizar en otros entornos, el avance sobre el lenguaje y sus distintas implementaciones hoy en día nos permite encontrarlo más allá de la web.
