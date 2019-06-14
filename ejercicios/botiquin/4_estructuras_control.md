@@ -5,9 +5,9 @@
    ```javascript
    let cantidadApositosAdhesivos = 13;
    if (cantidadApositosAdhesivos > 0) {
-    console.log('Aún quedan apósitos.');
+    alert('Aún quedan apósitos.');
    } else {
-    console.log('Hacen falta apósitos!');
+    alert('Hacen falta apósitos!');
    }
    ```
 
@@ -17,7 +17,7 @@
    let botiquin = ['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'];
    let indice = 0;
    while(indice < botiquin.length) {
-    console.log(botiquin[indice]);
+    alert(botiquin[indice]);
     indice = indice + 1;
    }
    ```
