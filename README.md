@@ -8,7 +8,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 Acá te dejamos un GIF en el cual se ve cómo usar este editor.
 
-![](JS101.gif)
+![](assets/JS101.gif)
 
 ## Introducción
 
