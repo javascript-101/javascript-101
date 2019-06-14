@@ -14,7 +14,7 @@
 2. Recorra el botiquín y muestre de a uno por vez los elementos en la consola. \(Pista: Usa la sentencia `while`\).
 
    ```javascript
-   const botiquin = ['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'];
+   let botiquin = ['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'];
    let indice = 0;
    while(indice < botiquin.length) {
     console.log(botiquin[indice]);
@@ -26,7 +26,7 @@
 
    \`\`\` javascript 
 
-   const botiquin = \['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'\];
+   let botiquin = \['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'\];
 
    let indice = 0;
 

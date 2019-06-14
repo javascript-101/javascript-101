@@ -3,7 +3,7 @@
 1. Defina el botiquín como un **arreglo** con el nombre de los elementos que contiene.
 
    ```javascript
-   const botiquin = ['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'];
+   let botiquin = ['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'];
    alert(botiquin);
    ```
 
@@ -25,7 +25,7 @@
 4. Defina un arreglo con las cantidades de cada elemento del botiquín en la misma posicion definida anteriormente. Luego muestre la cantidad de aspirinas que tiene el botiquín como `NOMBRE: CANTIDAD`.
 
    ```javascript
-   const botiquin = ['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'];
+   let botiquin = ['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'];
    let cantidades = [13, 1, 3, 4];
    let indiceDeAspirinas = 2;
    alert(botiquin[indiceDeAspirinas], ':', cantidades[indiceDeAspirinas]);

@@ -35,7 +35,7 @@
 4. Cambie todos los elementos del botiquín a objetos con la misma estructura.
 
    ```javascript
-   const botiquin = [
+   let botiquin = [
    {
     nombre: 'Curitas',
     cantidad: 13

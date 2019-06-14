@@ -19,7 +19,7 @@ if (ganeLaCarrera == true) {
         * `'Volvé a tu casa'` si la `posicionEnLaCarrera` es mayor a 3.
 */
 
-const posicionEnLaCarrera = 6;
+let posicionEnLaCarrera = 6;
 
 if (posicionEnLaCarrera == 1) {
     alert('FELICITACIONES, SALISTE 1RO');
@@ -37,7 +37,7 @@ if (posicionEnLaCarrera == 1) {
     Repetir el ejercicio anterior pero usando un solo `alert` en todo el programa.
 */
 
-const posicionEnLaCarrera = 6;
+let posicionEnLaCarrera = 6;
 let mensaje = '';
 
 if (posicionEnLaCarrera == 1) {

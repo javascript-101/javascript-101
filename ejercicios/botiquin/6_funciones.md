@@ -21,7 +21,7 @@
 3. Utilice la función nativa de JavaScript `prompt()` para ingresar tu nombre y luego envielo como parametro a la función anterior.
 
    ```javascript
-   const nombre = prompt('¿Cuál es tu nombre?');
+   let nombre = prompt('¿Cuál es tu nombre?');
    bienvenido(nombre);
    ```
 
@@ -67,7 +67,7 @@ if\(sonIguales\(curitas, alcohol\)\) { alert\('Son el mismo elemento!'\); } else
 function mostrarBotiquin(nombre, botiquin){
 ...
 }
-const nombre = prompt('¿Cuál es tu nombre?');
+let nombre = prompt('¿Cuál es tu nombre?');
 mostrarBotiquin(nombre, botiquin);
 ```
 

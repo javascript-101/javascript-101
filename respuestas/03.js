@@ -6,13 +6,13 @@ alert(cantidadDeVentanasEnMiCasa);
 
 // Declarar una variable de nombre `soyHumano` y asignarle el valor `true` (verdadero). Mostrar el valor de la variable por la terminal.
 
-const soyHumano = true;
+let soyHumano = true;
 
 alert(soyHumano);
 
 // Declarar una variable de nombre `miGustoDePizzaPreferido` y asignarle la variedad de pizza que más te guste usando un `string` (cadena de caracteres). Mostrar el valor de la variable por la terminal.
 
-const miGustoDePizzaPreferido = 'Con Jamón';
+let miGustoDePizzaPreferido = 'Con Jamón';
 
 alert(miGustoDePizzaPreferido);
 

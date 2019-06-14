@@ -1,18 +1,18 @@
 // 1
 
-const nombreEmpresaUno = "Empresa1";
-const saludoEmpresaUno = "Buenas tardes, muchas gracias por adquirir su torta.";
+let nombreEmpresaUno = "Empresa1";
+let saludoEmpresaUno = "Buenas tardes, muchas gracias por adquirir su torta.";
 
-const nombreEmpresaDos = "Empresa2";
-const saludoEmpresaDos = "¡Hola! Muy buena onda que compren tortas ;D";
+let nombreEmpresaDos = "Empresa2";
+let saludoEmpresaDos = "¡Hola! Muy buena onda que compren tortas ;D";
 
-const nombreEmpresaTres = "Empresa3";
-const saludoEmpresaTres = "¡Muchas thank you!";
+let nombreEmpresaTres = "Empresa3";
+let saludoEmpresaTres = "¡Muchas thank you!";
 
-const saludoGenérico = "¡Muchas gracias!";
+let saludoGenérico = "¡Muchas gracias!";
 
 function devolverSaludo() {
-    const empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
+    let empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
 
     if (empresaCargadaPorUsuario === nombreEmpresaUno) {
         alert(saludoEmpresaUno)
@@ -21,7 +21,7 @@ function devolverSaludo() {
     } else if (empresaCargadaPorUsuario === nombreEmpresaUno) {
         alert(saludoEmpresaTres)
     } else {
-        const confirmacion = confirm("Esa empresa no existe, ¿Deseas ver un saludo genérico?");
+        let confirmacion = confirm("Esa empresa no existe, ¿Deseas ver un saludo genérico?");
         if (confirmacion) {
             alert(saludoGenérico);
         } else {
@@ -34,23 +34,23 @@ function devolverSaludo() {
 
 // 2
 
-const nombreEmpresaUno = "Empresa1";
-const saludoEmpresaUno = "Buenas tardes, muchas gracias por adquirir su torta.";
-const tortasCompradasEmpresaUno = 352;
+let nombreEmpresaUno = "Empresa1";
+let saludoEmpresaUno = "Buenas tardes, muchas gracias por adquirir su torta.";
+let tortasCompradasEmpresaUno = 352;
 
-const nombreEmpresaDos = "Empresa2";
-const saludoEmpresaDos = "¡Hola! Muy buena onda que compren tortas ;D";
-const tortasCompradasEmpresaUno = 470;
+let nombreEmpresaDos = "Empresa2";
+let saludoEmpresaDos = "¡Hola! Muy buena onda que compren tortas ;D";
+let tortasCompradasEmpresaUno = 470;
 
-const nombreEmpresaTres = "Empresa3";
-const saludoEmpresaTres = "¡Muchas thank you!";
-const tortasCompradasEmpresaUno = 563;
+let nombreEmpresaTres = "Empresa3";
+let saludoEmpresaTres = "¡Muchas thank you!";
+let tortasCompradasEmpresaUno = 563;
 
-const saludoGenérico = "¡Muchas gracias!";
+let saludoGenérico = "¡Muchas gracias!";
 
-const tortasExtrasPedidoMinimo = 10;
-const tortasExtrasDadas = 1;
-const tortasExtrasCada = 15;
+let tortasExtrasPedidoMinimo = 10;
+let tortasExtrasDadas = 1;
+let tortasExtrasCada = 15;
 
 function devolverSaludo(nombreEmpresa) {
     let empresaCargadaPorUsuario = nombreEmpresa;
@@ -65,7 +65,7 @@ function devolverSaludo(nombreEmpresa) {
     } else if (empresaCargadaPorUsuario === nombreEmpresaUno) {
         alert(saludoEmpresaTres)
     } else {
-        const confirmacion = confirm("Esa empresa no existe, ¿Deseas ver un saludo genérico?");
+        let confirmacion = confirm("Esa empresa no existe, ¿Deseas ver un saludo genérico?");
         if (confirmacion) {
             alert(saludoGenérico);
         } else {
@@ -76,11 +76,11 @@ function devolverSaludo(nombreEmpresa) {
 
 function aplicarDescuentos(cantidadTortasCompradasEmpresa, monto) {
 
-    const descuentoNivel1TortasNecesarias = 100;
-    const descuentoNivel1Valor = 0.10;
+    let descuentoNivel1TortasNecesarias = 100;
+    let descuentoNivel1Valor = 0.10;
 
-    const descuentoNivel2TortasNecesarias = 500;
-    const descuentoNivel2Valor = 0.15;
+    let descuentoNivel2TortasNecesarias = 500;
+    let descuentoNivel2Valor = 0.15;
 
     if (cantidadTortasCompradasEmpresa >= descuentoNivel2TortasNecesarias) {
         return monto - (1 - descuentoNivel2Valor);
@@ -97,7 +97,7 @@ function devolverMontoTotal(nombreEmpresa) {
         empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
     }
 
-    const monto = Number(prompt("Por favor, escriba el valor del monto"))
+    let monto = Number(prompt("Por favor, escriba el valor del monto"))
 
     if (empresaCargadaPorUsuario === nombreEmpresaUno) {
         alert(aplicarDescuentos(tortasCompradasEmpresaUno, monto))
@@ -110,6 +110,6 @@ function devolverMontoTotal(nombreEmpresa) {
     }
 }
 
-const empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
+let empresaCargadaPorUsuario = prompt("Por favor, escriba el nombre de una empresa")
 devolverMontoTotal(empresaCargadaPorUsuario);
 devolverSaludo(empresaCargadaPorUsuario);

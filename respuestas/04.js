@@ -2,7 +2,7 @@
     Declarar una variable llamada `noValgoNi5` y asignarle el valor `4`. Mostrar el valor de la variable en la ventana.
 */
 
-const noValgoNi5 = 4;
+let noValgoNi5 = 4;
 
 alert(noValgoNi5);
 
@@ -16,7 +16,7 @@ alert(noValgoNi5);
     Mostrar en la ventana el año en el que vas a cumplir 80 años.
 */
 
-const miAnoDeNacimiento = 1990;
+let miAnoDeNacimiento = 1990;
 let meGustariaTener80Anos = 80;
 
 let voyATener80ElAno = miAnoDeNacimiento + meGustariaTener80Anos;
@@ -50,7 +50,7 @@ alert(dineroQueMeFalta);
     Mostrar en la ventana cuantos días hay en una década.
 */
 
-const diasPorAno = 365;
+let diasPorAno = 365;
 let cantidadDeAnosEnUnaDecada = 10;
 
 let cantidadDeDiasEnUnaDecada = 365 * 10;

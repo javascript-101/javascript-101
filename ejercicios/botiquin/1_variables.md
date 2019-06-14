@@ -17,10 +17,10 @@ alert(cantidadApositosAdhesivos, cantidadAlcoholEnGel, cantidadBlisterAspirinas,
 1. Defina las variables necesarias para mostrar el nombre de los elementos que contiene nuestro botiquin.
 
    ```javascript
-   const nombreApositos = 'Curitas';
-   const nombreAlcohol = 'Alcohol en Gel';
-   const nombreAspirinas = 'Aspirinas';
-   const nombreGuantes = 'Guantes de Latex';
+   let nombreApositos = 'Curitas';
+   let nombreAlcohol = 'Alcohol en Gel';
+   let nombreAspirinas = 'Aspirinas';
+   let nombreGuantes = 'Guantes de Latex';
    alert(nombreApositos, nombreAlcohol, nombreAspirinas, nombreGuantes);
    ```
 
