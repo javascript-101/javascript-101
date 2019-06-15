@@ -1,8 +1,8 @@
 /*
-    Declarar una variable que se llame `ganeLaCarrera` y asignarle el valor `false`. Mostrar por la terminal un mensaje que diga `'Ganaste'` si `ganeLaCarrera` es verdadero y `'Perdiste'` si su valor es falso.
+    Declarar una variable que se llame `ganeLaCarrera` y asignarle el valor `false`. Mostrar en la ventana un mensaje que diga `'Ganaste'` si `ganeLaCarrera` es verdadero y `'Perdiste'` si su valor es falso.
 */
 
-var ganeLaCarrera = false;
+let ganeLaCarrera = false;
 
 if (ganeLaCarrera == true) {
     alert('Ganaste');
@@ -11,7 +11,7 @@ if (ganeLaCarrera == true) {
 }
 
 /*
-    Declarar una variable que se llame `posicionEnLaCarrera` y asignarle el número `6`. Mostrar por la terminal uno de los siguientes mensajes según la posición que salió el corredor:
+    Declarar una variable que se llame `posicionEnLaCarrera` y asignarle el número `6`. Mostrar en la ventana uno de los siguientes mensajes según la posición que salió el corredor:
 
         * `'FELICITACIONES, SALISTE 1RO'` si la `posicionEnLaCarrera` es 1.
         * `'Te falto poquito para ganar'` si la `posicionEnLaCarrera` es 2.
@@ -19,7 +19,7 @@ if (ganeLaCarrera == true) {
         * `'Volvé a tu casa'` si la `posicionEnLaCarrera` es mayor a 3.
 */
 
-var posicionEnLaCarrera = 6;
+let posicionEnLaCarrera = 6;
 
 if (posicionEnLaCarrera == 1) {
     alert('FELICITACIONES, SALISTE 1RO');
@@ -37,8 +37,8 @@ if (posicionEnLaCarrera == 1) {
     Repetir el ejercicio anterior pero usando un solo `alert` en todo el programa.
 */
 
-var posicionEnLaCarrera = 6;
-var mensaje = '';
+let posicionEnLaCarrera = 6;
+let mensaje = '';
 
 if (posicionEnLaCarrera == 1) {
     mensaje = 'FELICITACIONES, SALISTE 1RO';

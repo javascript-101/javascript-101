@@ -4,16 +4,16 @@
 
    ```javascript
    function bienvenidos() {
-   console.log('Bienvenidos al botiquín virtual!');
+    alert('Bienvenidos al botiquín virtual!');
    }
    bienvenidos();
    ```
 
-2. Declare una función que reciba tu nombre como parametro y lo una al mensaje de bienvenida. 
+2. Declare una función que reciba tu nombre como parametro y lo una al mensaje de bienvenida.
 
    ```javascript
    function bienvenido(nombre) {
-   console.log('Bienvenido ' + nombre + ' al botiquín virtual!');
+    alert('Bienvenido ' + nombre + ' al botiquín virtual!');
    }
    bienvenido('Gastón');
    ```
@@ -21,7 +21,7 @@
 3. Utilice la función nativa de JavaScript `prompt()` para ingresar tu nombre y luego envielo como parametro a la función anterior.
 
    ```javascript
-   var nombre = prompt('¿Cuál es tu nombre?');
+   let nombre = prompt('¿Cuál es tu nombre?');
    bienvenido(nombre);
    ```
 
@@ -29,29 +29,29 @@
 
    ```javascript
    function aspirinasEnBotiquin(blistersDeAspirinas) {
-   return blistersDeAspirinas * 10;
+    return blistersDeAspirinas * 10;
    }
-   var cantidadBlisterAspirinas = 3;
-   console.log(aspirinasEnBotiquin(cantidadBlisterAspirinas));
+   let cantidadBlisterAspirinas = 3;
+   alert(aspirinasEnBotiquin(cantidadBlisterAspirinas));
    ```
 
 5. ¿Qué sucederá si la función anterior la llamamos sin enviarle los parametros necesarios?
 
    ```javascript
-   console.log(aspirinasEnBotiquin());
+   alert(aspirinasEnBotiquin());
    ```
 
-6. Defina la función `sonIguales` que determine si 2 objetos del botiquín son iguales o  no. A su vez, escriba un programa que use esta función y muestre un mensaje a partir de su resultado. 
+6. Defina la función `sonIguales` que determine si 2 objetos del botiquín son iguales o  no. A su vez, escriba un programa que use esta función y muestre un mensaje a partir de su resultado.
 
    \`\`\` javascript
 
    function sonIguales\(elemento1, elemento2\) {
 
-   return elemento1.nombre === elemento2.nombre;
+    return elemento1.nombre === elemento2.nombre;
 
    }
 
-if\(sonIguales\(curitas, alcohol\)\) { console.log\('Son el mismo elemento!'\); } else { console.log\('Son elementos diferentes!'\); }
+if\(sonIguales\(curitas, alcohol\)\) { alert\('Son el mismo elemento!'\); } else { alert\('Son elementos diferentes!'\); }
 
 ```text
 7. Defina la función `mostrarBotiquin` que muestre lo que contiene nuestro botiquín (que recibe como parametro) en forma de tabla como se describe abajo. Al momento de presentar las aspirinas, muestre la cantidad aspirinas, no de blisters (_Tip: Reusa las funciones anterior_). 
@@ -67,7 +67,7 @@ if\(sonIguales\(curitas, alcohol\)\) { console.log\('Son el mismo elemento!'\); 
 function mostrarBotiquin(nombre, botiquin){
 ...
 }
-var nombre = prompt('¿Cuál es tu nombre?');
+let nombre = prompt('¿Cuál es tu nombre?');
 mostrarBotiquin(nombre, botiquin);
 ```
 
