@@ -6,7 +6,7 @@ Este workshop es una introducción a la programación usando JavaScript.
 
 * Para el workshop vamos a estar utilizando un editor de texto online, [Stackblitz](https://stackblitz.com/fork/javascript101), por lo que te pedimos que entres al enlace para poder trabajar con mayor comodidad.
 * Antes de empezar a trabajar debemos cambiar algunas configuraciones para poder realizar los ejercicios.
-  * Vamos a ir a la configuraciòn de stackblitz y cambiar el `Hot Reload Trigger`, si clickeamos esta opción se va a expandir un dropdown(lista), en el mismo elegimos la opción `Save`. Esto va a hacer que el editor se recargue solo cuando guardamos los cambios y no cada vez que realizamos uno. Para poder ver la diferencia podes elegir la opción `Edit(auto)` y ver el comportamiento.
+  * Vamos a ir a la configuración de stackblitz y cambiar el `Hot Reload Trigger`, si clickeamos esta opción se va a expandir un dropdown(lista), en el mismo elegimos la opción `Save`. Esto va a hacer que el editor se recargue solo cuando guardamos los cambios y no cada vez que realizamos uno. Para poder ver la diferencia podes elegir la opción `Edit(auto)` y ver el comportamiento.
   * Luego de esto vamos a volver al proyecto y ver que tenemos una carpeta `ejercicios` donde se encuentran los archivos para que puedas seguir con el workshop.
   
 Acá te dejamos un GIF con los pasos a seguir.
