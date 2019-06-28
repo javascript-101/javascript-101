@@ -1,4 +1,4 @@
-// Mostrar el año de tu nacimiento por la terminal.
+// Mostrar el año de tu nacimiento en la ventana.
 
 alert(1990);
 

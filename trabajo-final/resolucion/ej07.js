@@ -1,30 +1,30 @@
 // 2
-var canciones = [
+let canciones = [
     { nombre: 'En la ciudad de la furia', duracion: 345 },
     { nombre: 'Nada Personal', duracion: 300 }
 ];
 
 // 3
-console.log(canciones);
+alert(canciones);
 
 // 4
-console.log(canciones[0]);
+alert(canciones[0]);
 
 // 5
-console.log(canciones[1]);
+alert(canciones[1]);
 
 // 6
-console.log('Canción: ', canciones[0].nombre);
-console.log('Duración en segundos:', canciones[0].duracion);
+alert('Canción: ', canciones[0].nombre);
+alert('Duración en segundos:', canciones[0].duracion);
 
 // 7
-console.log('Canción: ', canciones[1].nombre);
-console.log('Duración en segundos:', canciones[1].duracion);
+alert('Canción: ', canciones[1].nombre);
+alert('Duración en segundos:', canciones[1].duracion);
 
 
 // Extra bonus!
-var nombreDeCancion = canciones[1].nombre;
-var duracion = canciones[1].duracion;
+let nombreDeCancion = canciones[1].nombre;
+let duracion = canciones[1].duracion;
 
-console.log('Canción: ', nombreDeCancion);
-console.log('Duración en segundos:', duracion);
+alert('Canción: ', nombreDeCancion);
+alert('Duración en segundos:', duracion);

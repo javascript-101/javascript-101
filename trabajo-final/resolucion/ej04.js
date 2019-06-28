@@ -1,5 +1,5 @@
 // 2
-var cancion = {
+let cancion = {
     nombre: 'En la ciudad de la furia',
     autor: 'Soda Stereo',
     duracion: 345,
@@ -8,20 +8,20 @@ var cancion = {
 };
 
 // 3
-console.log(cancion);
+alert(cancion);
 
 // 4
-console.log('Canción: ', cancion.nombre);
-console.log('Autor: ', cancion.autor);
-console.log('Duración en segundos: ', cancion.duracion);
-console.log('Reproducir: ', cancion.reproducir);
-console.log('Canción favorita: ', cancion.favorita);
+alert('Canción: ', cancion.nombre);
+alert('Autor: ', cancion.autor);
+alert('Duración en segundos: ', cancion.duracion);
+alert('Reproducir: ', cancion.reproducir);
+alert('Canción favorita: ', cancion.favorita);
 
 // 5
 cancion.album = 'Me Verás Volver (Hits & Más)';
 
 // 6
-console.log(cancion);
+alert(cancion);
 
 // 7
-console.log('Album: ', cancion.album);
+alert('Album: ', cancion.album);

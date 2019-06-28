@@ -1,40 +1,40 @@
 // 2
-var autor = {
+let autor = {
     nombre: 'Soda Stereo',
     integrantes: ['Gustavo Cerati', 'Zeta Bosio', 'Charly Alberti']
 };
 
 // 3
-var cancion1 = {
+let cancion1 = {
     nombre: 'En el septimo día',
     duracion: 345
 };
 
 // 4
-var cancion2 = {
+let cancion2 = {
     nombre: 'Canción Animal',
     duracion: 260
 };
 
 // 5
-var cancion3 = {
+let cancion3 = {
     nombre: 'Té para 3',
     duracion: 180
 };
 
 // 6
-var disco = {
+let disco = {
     nombre: 'Canción Animal',
     autor: autor,
     canciones: [cancion1, cancion2, cancion3]
 };
 
 // 7
-console.log('Nombre del disco: ', disco.nombre);
-console.log('Nombre del autor: ', disco.autor.nombre);
+alert('Nombre del disco: ', disco.nombre);
+alert('Nombre del autor: ', disco.autor.nombre);
 
-var integrantes = disco.autor.integrantes;
-console.log('Integrantes: ', integrantes[0], integrantes[1], integrantes[2]);
+let integrantes = disco.autor.integrantes;
+alert('Integrantes: ', integrantes[0], integrantes[1], integrantes[2]);
 
-var canciones = disco.canciones;
-console.log('Canciones: ', canciones[0], canciones[1], canciones[2]);
+let canciones = disco.canciones;
+alert('Canciones: ', canciones[0], canciones[1], canciones[2]);

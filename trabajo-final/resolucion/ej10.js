@@ -1,12 +1,12 @@
 // 2
-var argumentos = process.argv;
+let argumentos = process.argv;
 
 // 3
-var nombre = argumentos[2];
+let nombre = argumentos[2];
 
 // 4
-var edad = argumentos[3];
+let edad = argumentos[3];
 
 // 5
-console.log('Nombre: ', nombre);
-console.log('Edad:', edad);
+alert('Nombre: ', nombre);
+alert('Edad:', edad);

@@ -1,5 +1,5 @@
 // 2
-var canciones = [
+let canciones = [
     'En la ciudad de la furia',
     'Trátame suavemente',
     'Nada Personal',
@@ -8,5 +8,5 @@ var canciones = [
 
 // 3
 canciones.forEach(function(cancion) {
-    console.log(cancion);
+    alert(cancion);
 });
