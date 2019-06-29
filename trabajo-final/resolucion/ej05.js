@@ -1,5 +1,5 @@
 // 2
-var canciones = [
+let canciones = [
     'En la ciudad de la furia',
     'Trátame suavemente',
     'Nada Personal',
@@ -7,13 +7,13 @@ var canciones = [
 ];
 
 // 3
-console.log(canciones);
+alert(canciones);
 
 // 4
-console.log(canciones[0]);
-console.log(canciones[1]);
-console.log(canciones[2]);
-console.log(canciones[3]);
+alert(canciones[0]);
+alert(canciones[1]);
+alert(canciones[2]);
+alert(canciones[3]);
 
 // 5
-console.log('Cantidad de canciones en la colección: ', canciones.length);
+alert('Cantidad de canciones en la colección: ', canciones.length);

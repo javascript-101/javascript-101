@@ -9,11 +9,11 @@ function obtenerDuracionDeCancion() {
 }
 
 // 4
-var cancion = obtenerNombreDeCancion();
+let cancion = obtenerNombreDeCancion();
 
 // 5
-var duracion = obtenerDuracionDeCancion();
+let duracion = obtenerDuracionDeCancion();
 
 // 6
-console.log(cancion);
-console.log(duracion);
+alert(cancion);
+alert(duracion);

@@ -1,17 +1,17 @@
 // 2
-var autor = 'Viejas Locas';
+let autor = 'Viejas Locas';
 
 // 3
 switch (autor) {
     case 'Soda Stereo':
-        console.log('Nos gusta soda');
+        alert('Nos gusta soda');
         break;
     case 'Amar Azul':
-        console.log('Cumbia Nena!!');
+        alert('Cumbia Nena!!');
         break;
     case 'Viejas Locas':
-        console.log('Rock and rooooollllllll');
+        alert('Rock and rooooollllllll');
         break;
     default:
-        console.log('No te gusta la música');
+        alert('No te gusta la música');
 }

@@ -1,18 +1,18 @@
 // 2
-var resultado = 2 + 6;
+let resultado = 2 + 6;
 
 // 3
-console.log(resultado);
+alert(resultado);
 
 // 4
-var numero1;
-var numero2;
+let numero1;
+let numero2;
 
 // 5
 numero1 = 4;
 numero2 = 5;
 
 // 6
-console.log(numero1 + numero2)
-console.log(numero1 * numero2)
-console.log(numero2 - numero1)
+alert(numero1 + numero2)
+alert(numero1 * numero2)
+alert(numero2 - numero1)

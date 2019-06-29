@@ -1,3 +1,3 @@
 // 2
-var argumentos = process.argv;
-console.log(argumentos);
+let argumentos = process.argv;
+alert(argumentos);

@@ -1,5 +1,5 @@
 // 2
-var cancion = [
+let cancion = [
     'En la ciudad de la furia',
     'Soda Stereo',
     345,
@@ -8,11 +8,11 @@ var cancion = [
 ];
 
 // 3
-console.log(cancion);
+alert(cancion);
 
 // 4
-console.log('Canción: ', cancion[0]);
-console.log('Autor: ', cancion[1]);
-console.log('Duración en segundos: ', cancion[2]);
-console.log('Reproducir: ', cancion[3]);
-console.log('Canción favorita: ', cancion[4]);
+alert('Canción: ', cancion[0]);
+alert('Autor: ', cancion[1]);
+alert('Duración en segundos: ', cancion[2]);
+alert('Reproducir: ', cancion[3]);
+alert('Canción favorita: ', cancion[4]);

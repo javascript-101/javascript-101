@@ -1,15 +1,15 @@
 // 2
-for (var i = 1; i < 11; i++) {
-    console.log(i);
+for (let i = 1; i < 11; i++) {
+    alert(i);
 }
 
 // 3
-for (var i = 10; i > 0; i--) {
-    console.log(i);
+for (let i = 10; i > 0; i--) {
+    alert(i);
 }
 
 // 4
-var canciones = [
+let canciones = [
     'En la ciudad de la furia',
     'Trátame suavemente',
     'Nada Personal',
@@ -17,6 +17,6 @@ var canciones = [
 ];
 
 // 5
-for (var i = 0; i < canciones.length; i++) {
-    console.log(canciones[i]);
+for (let i = 0; i < canciones.length; i++) {
+    alert(canciones[i]);
 }

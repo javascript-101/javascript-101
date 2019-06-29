@@ -22,9 +22,9 @@
    }
    ```
 
-3. Recorra el botiquín y muestre el mensaje `'Aun quedan gasas en el botiquin.'` si hay gasas en el botiquín. 
+3. Recorra el botiquín y muestre el mensaje `'Aun quedan gasas en el botiquin.'` si hay gasas en el botiquín.
 
-   \`\`\` javascript 
+   \`\`\` javascript
 
    let botiquin = \['Curitas', 'Alcohol en gel', 'Aspirinas', 'Guantes de latex'\];
 
@@ -44,5 +44,5 @@
 
    }
 
-if\(quedanGasas\) { console.log\('Aun quedan gasas.'\); } \`\`\`
+if\(quedanGasas\) { alert\('Aun quedan gasas.'\); } \`\`\`
 

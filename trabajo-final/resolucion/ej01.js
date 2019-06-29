@@ -1,6 +1,6 @@
 /*
-  Por medio de console.log(valor) podemos impimir
+  Por medio de alert(valor) podemos impimir
   un mensaje en la consola.
 */
 
-console.log('Bienvenidos a Spotify');
+alert('Bienvenidos a Spotify');
