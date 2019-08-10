@@ -29,8 +29,8 @@ Para conocer más sobre la historia y los fundamentos de Javascript podes empeza
 4. [Operadores](ejercicios/conceptuales/04.md)
 5. [Condicionales](ejercicios/conceptuales/05.md)
 6. [prompt\(\)](ejercicios/conceptuales/06.md)
-7. [Ejercicio Integrador](ejercicios/conceptuales/07.md)
-8. [Funciones](ejercicios/conceptuales/08.md)
+7. [Funciones](ejercicios/conceptuales/07.md)
+8. [Ejercicio Integrador](ejercicios/conceptuales/08.md)
 
 ### Ejercicios Botiquín Virtual
 
