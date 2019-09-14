@@ -52,6 +52,8 @@ Para conocer más sobre la historia y los fundamentos de Javascript podes empeza
 6. [Eloquent JavaScript en español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/)
 7. [Aprende ECMAScript 6](https://carlosazaustre.es/ecmascript-6-el-nuevo-estandar-de-javascript/)
 8. [Mozilla - Clases en ECMAScript 6](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes)
+9. [Desafíos de CourseIT](https://courseit.com.ar/desafios)
+
 
 ## ¡Comunidades amigas!
 
