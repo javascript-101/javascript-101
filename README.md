@@ -32,16 +32,6 @@ Para conocer más sobre la historia y los fundamentos de Javascript podes empeza
 7. [Funciones](ejercicios/conceptuales/07.md)
 8. [Ejercicio Integrador](ejercicios/conceptuales/08.md)
 
-### Ejercicios Botiquín Virtual
-
-1. [Variables](ejercicios/botiquin/1_variables.md)
-2. [Operadores y Expresiones](ejercicios/botiquin/2_operadores_expresiones.md)
-3. [Arrays](ejercicios/botiquin/3_arrays.md)
-4. [Estructuras de control](ejercicios/botiquin/4_estructuras_control.md)
-5. [Objetos](ejercicios/botiquin/5_objetos.md)
-6. [Funciones](ejercicios/botiquin/6_funciones.md)
-7. [Aplicación Web](ejercicios/botiquin/7_aplicacion_web.md)
-
 ## Links extras para seguir aprendiendo
 
 1. [JavaScript para gatos](https://jsparagatos.com/)
@@ -53,7 +43,6 @@ Para conocer más sobre la historia y los fundamentos de Javascript podes empeza
 7. [Aprende ECMAScript 6](https://carlosazaustre.es/ecmascript-6-el-nuevo-estandar-de-javascript/)
 8. [Mozilla - Clases en ECMAScript 6](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes)
 9. [Desafíos de CourseIT](https://courseit.com.ar/desafios)
-
 
 ## ¡Comunidades amigas!
 
